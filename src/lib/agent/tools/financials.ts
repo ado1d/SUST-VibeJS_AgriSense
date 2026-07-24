@@ -1,7 +1,7 @@
 // Tool 3: compute_financials — itemized cost breakdown + revenue + ROI + break-even
 // Tier 0 #5. Math must be inspectable and internally consistent.
 
-import { CROPS, INPUT_COSTS, type CropRecord } from '@/lib/kb/crops';
+import { CROPS, INPUT_COSTS } from '@/lib/kb/crops';
 
 export interface FinancialLineItem {
   category: string;
@@ -39,6 +39,9 @@ export interface FinancialResult {
 export function computeFinancials(cropId: string, farmSizeDecimal: number, sowingDate?: string): FinancialResult {
   const crop = CROPS.find(c => c.id === cropId);
   if (!crop) throw new Error(`Unknown crop id: ${cropId}`);
+  if (!Number.isFinite(farmSizeDecimal) || farmSizeDecimal <= 0) {
+    throw new Error('farmSizeDecimal must be a positive number');
+  }
 
   const farmSizeAcre = farmSizeDecimal / 100;
   const c = INPUT_COSTS;
@@ -134,20 +137,28 @@ export function computeFinancials(cropId: string, farmSizeDecimal: number, sowin
   const totalCostPerAcre = lineItems.reduce((s, li) => s + li.totalBdt, 0);
   const yieldPerAcre = (crop.typicalYieldPerAcre.min + crop.typicalYieldPerAcre.max) / 2;
   const pricePerUnit = (crop.typicalPricePerUnit.min + crop.typicalPricePerUnit.max) / 2;
-  const revenuePerAcre = yieldPerAcre * pricePerUnit;
-  const profitPerAcre = revenuePerAcre - totalCostPerAcre;
-  const roiPercent = (profitPerAcre / totalCostPerAcre) * 100;
-  const breakEvenPricePerUnit = totalCostPerAcre / yieldPerAcre;
-  const breakEvenYieldMaund = totalCostPerAcre / pricePerUnit;
-
   const scenarioNotes: string[] = [];
   if (sowingDate) {
     // crude scenario note based on sowing date
-    const m = new Date(sowingDate).getMonth() + 1;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(sowingDate) || Number.isNaN(Date.parse(`${sowingDate}T00:00:00Z`))) {
+      throw new Error('sowingDate must be a valid ISO date (YYYY-MM-DD)');
+    }
+    const m = new Date(`${sowingDate}T00:00:00Z`).getUTCMonth() + 1;
     if (crop.seasons.includes('rabi') && (m < 10 || m > 12)) {
       scenarioNotes.push(`Sowing in month ${m} is outside the optimal Rabi window (Nov–Dec). Yield may drop 10–25% due to heat stress at grain filling.`);
     }
   }
+
+  // Round displayed inputs first, then derive every displayed total from those
+  // values. This guarantees revenue - cost = profit in both views.
+  const displayedCostPerAcre = Math.round(totalCostPerAcre);
+  const displayedYieldPerAcre = Math.round(yieldPerAcre * 10) / 10;
+  const displayedPricePerUnit = Math.round(pricePerUnit);
+  const displayedRevenuePerAcre = Math.round(displayedYieldPerAcre * displayedPricePerUnit);
+  const displayedProfitPerAcre = displayedRevenuePerAcre - displayedCostPerAcre;
+  const totalCost = Math.round(displayedCostPerAcre * farmSizeAcre);
+  const totalRevenue = Math.round(displayedRevenuePerAcre * farmSizeAcre);
+  const totalProfit = totalRevenue - totalCost;
 
   return {
     cropId,
@@ -156,19 +167,19 @@ export function computeFinancials(cropId: string, farmSizeDecimal: number, sowin
     farmSizeAcre,
     perAcre: {
       lineItems,
-      totalCostPerAcre: Math.round(totalCostPerAcre),
-      yieldPerAcre: Math.round(yieldPerAcre * 10) / 10,
-      pricePerUnit: Math.round(pricePerUnit),
-      revenuePerAcre: Math.round(revenuePerAcre),
-      profitPerAcre: Math.round(profitPerAcre),
-      roiPercent: Math.round(roiPercent),
-      breakEvenPricePerUnit: Math.round(breakEvenPricePerUnit),
-      breakEvenYieldMaund: Math.round(breakEvenYieldMaund * 10) / 10,
+      totalCostPerAcre: displayedCostPerAcre,
+      yieldPerAcre: displayedYieldPerAcre,
+      pricePerUnit: displayedPricePerUnit,
+      revenuePerAcre: displayedRevenuePerAcre,
+      profitPerAcre: displayedProfitPerAcre,
+      roiPercent: Math.round((displayedProfitPerAcre / displayedCostPerAcre) * 100),
+      breakEvenPricePerUnit: Math.round(displayedCostPerAcre / displayedYieldPerAcre),
+      breakEvenYieldMaund: Math.round((displayedCostPerAcre / displayedPricePerUnit) * 10) / 10,
     },
     totals: {
-      totalCost: Math.round(totalCostPerAcre * farmSizeAcre),
-      totalRevenue: Math.round(revenuePerAcre * farmSizeAcre),
-      totalProfit: Math.round(profitPerAcre * farmSizeAcre),
+      totalCost,
+      totalRevenue,
+      totalProfit,
     },
     scenarioNotes,
   };

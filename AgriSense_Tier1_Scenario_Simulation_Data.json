@@ -1,0 +1,977 @@
+{
+  "verified_baselines": [
+    {
+      "id": "baseline_0001",
+      "crop_or_system": "Potato",
+      "metric": "Reported yield",
+      "value": 26.5,
+      "unit": "tonne/ha",
+      "context": "Under the specified mulch-based technology",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Use of water-hyacinth mulch in potato and tomato production",
+        "url": "https://baritechnology.org/m/crops/tech_detail/354",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0002",
+      "crop_or_system": "Tomato",
+      "metric": "Reported yield",
+      "value": 67.5,
+      "unit": "tonne/ha",
+      "context": "Under the specified mulch-based technology",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Use of water-hyacinth mulch in potato and tomato production",
+        "url": "https://baritechnology.org/m/crops/tech_detail/354",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0003",
+      "crop_or_system": "Potato",
+      "metric": "Reported yield increase with mulch",
+      "value": 42.5,
+      "unit": "percent",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Use of water-hyacinth mulch in potato and tomato production",
+        "url": "https://baritechnology.org/m/crops/tech_detail/354",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0004",
+      "crop_or_system": "Tomato",
+      "metric": "Reported yield increase with mulch",
+      "value": 22,
+      "unit": "percent",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Use of water-hyacinth mulch in potato and tomato production",
+        "url": "https://baritechnology.org/m/crops/tech_detail/354",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0005",
+      "crop_or_system": "Potato and Tomato",
+      "metric": "Reported gross income",
+      "value": 809860,
+      "unit": "BDT/ha",
+      "context": "Combined technology/cropping information reported by source",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Use of water-hyacinth mulch in potato and tomato production",
+        "url": "https://baritechnology.org/m/crops/tech_detail/354",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0006",
+      "crop_or_system": "Potato and Tomato",
+      "metric": "Reported production cost",
+      "value": 160550,
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Use of water-hyacinth mulch in potato and tomato production",
+        "url": "https://baritechnology.org/m/crops/tech_detail/354",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0007",
+      "crop_or_system": "Potato and Tomato",
+      "metric": "Reported benefit-cost ratio",
+      "value": 5.04,
+      "unit": "ratio",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Use of water-hyacinth mulch in potato and tomato production",
+        "url": "https://baritechnology.org/m/crops/tech_detail/354",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0008",
+      "crop_or_system": "BARI Alu-25",
+      "metric": "Reported yield range",
+      "value": "33-35",
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Irrigation technology for processing potato production",
+        "url": "https://m.baritechnology.org/crops/tech_detail/219",
+        "locator": "প্রযুক্তির বিবরণ",
+        "medium": "Official institutional webpage"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0009",
+      "crop_or_system": "BARI Alu-25",
+      "metric": "Reported benefit-cost ratio range",
+      "value": "2.7-3.6",
+      "unit": "ratio",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Irrigation technology for processing potato production",
+        "url": "https://m.baritechnology.org/crops/tech_detail/219",
+        "locator": "প্রযুক্তির বিবরণ",
+        "medium": "Official institutional webpage"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0010",
+      "crop_or_system": "BARI Alu-25",
+      "metric": "Reported net profit range",
+      "value": "300000-400000",
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Irrigation technology for processing potato production",
+        "url": "https://m.baritechnology.org/crops/tech_detail/219",
+        "locator": "প্রযুক্তির বিবরণ",
+        "medium": "Official institutional webpage"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0011",
+      "crop_or_system": "BARI Alu-28",
+      "metric": "Reported yield range",
+      "value": "29-32",
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Irrigation technology for processing potato production",
+        "url": "https://m.baritechnology.org/crops/tech_detail/219",
+        "locator": "প্রযুক্তির বিবরণ",
+        "medium": "Official institutional webpage"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0012",
+      "crop_or_system": "BARI Alu-28",
+      "metric": "Reported benefit-cost ratio range",
+      "value": "2.7-3.2",
+      "unit": "ratio",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Irrigation technology for processing potato production",
+        "url": "https://m.baritechnology.org/crops/tech_detail/219",
+        "locator": "প্রযুক্তির বিবরণ",
+        "medium": "Official institutional webpage"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0013",
+      "crop_or_system": "BARI Sarisha-18",
+      "metric": "Reported yield range",
+      "value": "2.0-2.5",
+      "unit": "tonne/ha",
+      "context": "With appropriate fertilizer and irrigation",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Production technology of BARI Sarisha-18 in High Barind Tract",
+        "url": "https://m.baritechnology.org/crops/tech_detail/520",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / বৈশিষ্ট্যসমূহ",
+        "medium": "Official institutional webpage"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0014",
+      "crop_or_system": "Potato",
+      "metric": "Reported yield",
+      "value": 35.3,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Fertilizer recommendation for potato-maize-T. Aman cropping pattern in AEZ-1",
+        "url": "https://m.baritechnology.org/crops/tech_detail/344",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0015",
+      "crop_or_system": "Potato-Maize-T. Aman",
+      "metric": "Reported profit improvement over farmer practice",
+      "value": 38,
+      "unit": "percent",
+      "context": "Soil-test-based integrated treatment described by the source",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Fertilizer recommendation for potato-maize-T. Aman cropping pattern in AEZ-1",
+        "url": "https://m.baritechnology.org/crops/tech_detail/344",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0016",
+      "crop_or_system": "Potato-Vegetable-Jute-Black Gram",
+      "metric": "Reported potato-equivalent yield increase over the farmer pattern",
+      "value": 61,
+      "unit": "percent",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Four-crop potato-vegetable-jute-black gram pattern in Tangail",
+        "url": "https://m.baritechnology.org/crops/tech_detail/347",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0017",
+      "crop_or_system": "Garlic-Maize-T. Aman",
+      "metric": "Reported rice-equivalent yield increase",
+      "value": 217,
+      "unit": "percent",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "Garlic/maize-T. Aman cropping pattern",
+        "url": "https://m.baritechnology.org/crops/tech_detail/355",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম",
+        "medium": "Official institutional webpage with tabular production data"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0018",
+      "crop_or_system": "Cropping system",
+      "metric": "Improved rice-equivalent yield",
+      "value": 25.65,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "পেঁয়াজ/মুগডাল-পাট-রোপা আমন ধান: কুড়িগ্রাম অঞ্চলের একটি চার ফসল ভিত্তিক উন্নত ফসল বিন্যাস",
+        "url": "https://baritechnology.org/m/crops/tech_detail/348",
+        "locator": "প্রযুক্তির বিবরণ > fertilizer table > management, harvest and yield",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0019",
+      "crop_or_system": "Cropping system",
+      "metric": "Conventional rice-equivalent yield",
+      "value": 19,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "পেঁয়াজ/মুগডাল-পাট-রোপা আমন ধান: কুড়িগ্রাম অঞ্চলের একটি চার ফসল ভিত্তিক উন্নত ফসল বিন্যাস",
+        "url": "https://baritechnology.org/m/crops/tech_detail/348",
+        "locator": "প্রযুক্তির বিবরণ > fertilizer table > management, harvest and yield",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0020",
+      "crop_or_system": "Cropping system",
+      "metric": "Improved rice-equivalent yield",
+      "value": 12.15,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "খুলনার উপকূলীয় অঞ্চলে রোপাআমন-সরিষা-মুগডাল একটি উন্নত ফসল ধারা",
+        "url": "https://baritechnology.org/m/crops/tech_detail/349",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি > সারের নাম table > সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0021",
+      "crop_or_system": "Cropping system",
+      "metric": "Improved rice-equivalent yield",
+      "value": 22.43,
+      "unit": "tonne/ha/year",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "সরিষা-বোরো ধান-পাট-রোপা আমন ধান: টাংগাইল অঞ্চলের একটি অধিক উৎপাদনশীল ফসল বিন্যাস",
+        "url": "https://m.baritechnology.org/crops/tech_detail/353",
+        "locator": "প্রযুক্তির বিবরণ > system comparison > varieties and seed rates > fertilizer table",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0022",
+      "crop_or_system": "Wheat–Mungbean–T. Aman Rice",
+      "metric": "Reported yield increase over wheat–fallow–T. Aman pattern",
+      "value": 11.73,
+      "unit": "percent",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "ফসল বিন্যাসের ফলন বৃদ্ধি ও মৃত্তিকার ভৌতগুণাবলী উন্নয়নের জন্য সংরক্ষিত কর্ষণ ও শস্যের অবশেষ ব্যবহার",
+        "url": "https://m.baritechnology.org/crops/tech_detail/293",
+        "locator": "প্রযুক্তির বিবরণ > conservation tillage depth and crop-residue system > fertilizer application",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0023",
+      "crop_or_system": "Cropping system",
+      "metric": "Farmer-pattern rice-equivalent yield",
+      "value": 4.63,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "খুলনার উপকূলীয় অঞ্চলে রোপাআমন-সরিষা-মুগডাল একটি উন্নত ফসল ধারা",
+        "url": "https://baritechnology.org/m/crops/tech_detail/349",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি > সারের নাম table > সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0024",
+      "crop_or_system": "Garlic and Groundnut",
+      "metric": "Groundnut-equivalent yield",
+      "value": 7.54,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি",
+        "url": "https://baritechnology.org/m/crops/tech_detail/350",
+        "locator": "প্রযুক্তির বিবরণ > fertilizer table > management > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0025",
+      "crop_or_system": "Cropping system",
+      "metric": "Conventional rice-equivalent yield",
+      "value": 11.76,
+      "unit": "tonne/ha/year",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "সরিষা-বোরো ধান-পাট-রোপা আমন ধান: টাংগাইল অঞ্চলের একটি অধিক উৎপাদনশীল ফসল বিন্যাস",
+        "url": "https://m.baritechnology.org/crops/tech_detail/353",
+        "locator": "প্রযুক্তির বিবরণ > system comparison > varieties and seed rates > fertilizer table",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0026",
+      "crop_or_system": "Cropping system",
+      "metric": "Reported increase over farmer pattern",
+      "value": 162,
+      "unit": "percent",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "খুলনার উপকূলীয় অঞ্চলে রোপাআমন-সরিষা-মুগডাল একটি উন্নত ফসল ধারা",
+        "url": "https://baritechnology.org/m/crops/tech_detail/349",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি > সারের নাম table > সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0027",
+      "crop_or_system": "Cropping system",
+      "metric": "Reported profit increase",
+      "value": 125,
+      "unit": "percent",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "খুলনার উপকূলীয় অঞ্চলে রোপাআমন-সরিষা-মুগডাল একটি উন্নত ফসল ধারা",
+        "url": "https://baritechnology.org/m/crops/tech_detail/349",
+        "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি > সারের নাম table > সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0028",
+      "crop_or_system": "Brinjal",
+      "metric": "Sole-crop yield",
+      "value": 44,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0029",
+      "crop_or_system": "Brinjal",
+      "metric": "Intercrop yield",
+      "value": 36,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0030",
+      "crop_or_system": "Dwarf hyacinth bean",
+      "metric": "Intercrop yield",
+      "value": 16,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0031",
+      "crop_or_system": "Garlic",
+      "metric": "Reported yield",
+      "value": 4.7,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি",
+        "url": "https://baritechnology.org/m/crops/tech_detail/350",
+        "locator": "প্রযুক্তির বিবরণ > fertilizer table > management > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0032",
+      "crop_or_system": "Sole brinjal",
+      "metric": "Total income",
+      "value": 354120,
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0033",
+      "crop_or_system": "Groundnut",
+      "metric": "Reported yield",
+      "value": 2.4,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি",
+        "url": "https://baritechnology.org/m/crops/tech_detail/350",
+        "locator": "প্রযুক্তির বিবরণ > fertilizer table > management > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0034",
+      "crop_or_system": "Sole brinjal",
+      "metric": "Total cost",
+      "value": 98320,
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0035",
+      "crop_or_system": "Cropping system",
+      "metric": "Reported total income",
+      "value": 414700,
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি",
+        "url": "https://baritechnology.org/m/crops/tech_detail/350",
+        "locator": "প্রযুক্তির বিবরণ > fertilizer table > management > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0036",
+      "crop_or_system": "Sole brinjal",
+      "metric": "Net profit",
+      "value": 255800,
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0037",
+      "crop_or_system": "Cropping system",
+      "metric": "Reported production cost",
+      "value": 95939,
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি",
+        "url": "https://baritechnology.org/m/crops/tech_detail/350",
+        "locator": "প্রযুক্তির বিবরণ > fertilizer table > management > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0038",
+      "crop_or_system": "BWMRI Hybrid Maize-2",
+      "metric": "Rabi yield — reported range",
+      "value": "12.0-14.0",
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Wheat and Maize Research Institute (BWMRI)",
+        "title": "বিডাব্লিউএমআরআই হাইব্রিড ভুট্টা ২",
+        "url": "https://bwmri.gov.bd/pages/static-pages/6922dfff933eb65569e24fc5",
+        "locator": "জাতের পাতা > জাতের বৈশিষ্ট্য > উপযোগী এলাকা > ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0039",
+      "crop_or_system": "Sole brinjal",
+      "metric": "Benefit-cost ratio",
+      "value": 3.6,
+      "unit": "ratio",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0040",
+      "crop_or_system": "Cropping system",
+      "metric": "Reported benefit-cost ratio",
+      "value": 4.32,
+      "unit": "ratio",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি",
+        "url": "https://baritechnology.org/m/crops/tech_detail/350",
+        "locator": "প্রযুক্তির বিবরণ > fertilizer table > management > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0041",
+      "crop_or_system": "BWMRI Hybrid Maize-2",
+      "metric": "Rabi yield — minimum",
+      "value": 12.0,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Wheat and Maize Research Institute (BWMRI)",
+        "title": "বিডাব্লিউএমআরআই হাইব্রিড ভুট্টা ২",
+        "url": "https://bwmri.gov.bd/pages/static-pages/6922dfff933eb65569e24fc5",
+        "locator": "জাতের পাতা > জাতের বৈশিষ্ট্য > উপযোগী এলাকা > ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0042",
+      "crop_or_system": "Brinjal + dwarf hyacinth bean",
+      "metric": "Total income",
+      "value": 450800,
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0043",
+      "crop_or_system": "BWMRI Hybrid Maize-2",
+      "metric": "Rabi yield — maximum",
+      "value": 14.0,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Wheat and Maize Research Institute (BWMRI)",
+        "title": "বিডাব্লিউএমআরআই হাইব্রিড ভুট্টা ২",
+        "url": "https://bwmri.gov.bd/pages/static-pages/6922dfff933eb65569e24fc5",
+        "locator": "জাতের পাতা > জাতের বৈশিষ্ট্য > উপযোগী এলাকা > ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0044",
+      "crop_or_system": "BARI Hybrid Maize-9",
+      "metric": "Rabi yield — reported range",
+      "value": "11.5-12.5",
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Wheat and Maize Research Institute (BWMRI)",
+        "title": "বারি হাইব্রিড ভুট্টা ৯",
+        "url": "https://bwmri.gov.bd/pages/static-pages/6922def6933eb65569e1ebb3",
+        "locator": "জাতের পাতা > জাতের বৈশিষ্ট্য > উপযোগী এলাকা > ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0045",
+      "crop_or_system": "Brinjal + dwarf hyacinth bean",
+      "metric": "Total cost",
+      "value": 102350,
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0046",
+      "crop_or_system": "BARI Hybrid Maize-9",
+      "metric": "Rabi yield — minimum",
+      "value": 11.5,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Wheat and Maize Research Institute (BWMRI)",
+        "title": "বারি হাইব্রিড ভুট্টা ৯",
+        "url": "https://bwmri.gov.bd/pages/static-pages/6922def6933eb65569e1ebb3",
+        "locator": "জাতের পাতা > জাতের বৈশিষ্ট্য > উপযোগী এলাকা > ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0047",
+      "crop_or_system": "Brinjal + dwarf hyacinth bean",
+      "metric": "Net profit",
+      "value": 348450,
+      "unit": "BDT/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0048",
+      "crop_or_system": "BARI Hybrid Maize-9",
+      "metric": "Rabi yield — maximum",
+      "value": 12.5,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Wheat and Maize Research Institute (BWMRI)",
+        "title": "বারি হাইব্রিড ভুট্টা ৯",
+        "url": "https://bwmri.gov.bd/pages/static-pages/6922def6933eb65569e1ebb3",
+        "locator": "জাতের পাতা > জাতের বৈশিষ্ট্য > উপযোগী এলাকা > ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0049",
+      "crop_or_system": "Brinjal + dwarf hyacinth bean",
+      "metric": "Benefit-cost ratio",
+      "value": 4.4,
+      "unit": "ratio",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "আন্তঃফসল হিসাবে বেগুনের সাথে ঝাড়শীমের চাষ",
+        "url": "https://baritechnology.org/m/crops/tech_detail/334",
+        "locator": "প্রযুক্তির বিবরণ > varieties and seed rate > soil and planting > harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0050",
+      "crop_or_system": "BARI Hybrid Maize-9",
+      "metric": "Kharif yield — reported range",
+      "value": "8.5-9.0",
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Wheat and Maize Research Institute (BWMRI)",
+        "title": "বারি হাইব্রিড ভুট্টা ৯",
+        "url": "https://bwmri.gov.bd/pages/static-pages/6922def6933eb65569e1ebb3",
+        "locator": "জাতের পাতা > জাতের বৈশিষ্ট্য > উপযোগী এলাকা > ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0051",
+      "crop_or_system": "BARI Hybrid Maize-9",
+      "metric": "Kharif yield — minimum",
+      "value": 8.5,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Wheat and Maize Research Institute (BWMRI)",
+        "title": "বারি হাইব্রিড ভুট্টা ৯",
+        "url": "https://bwmri.gov.bd/pages/static-pages/6922def6933eb65569e1ebb3",
+        "locator": "জাতের পাতা > জাতের বৈশিষ্ট্য > উপযোগী এলাকা > ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0052",
+      "crop_or_system": "BARI Hybrid Maize-9",
+      "metric": "Kharif yield — maximum",
+      "value": 9.0,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Wheat and Maize Research Institute (BWMRI)",
+        "title": "বারি হাইব্রিড ভুট্টা ৯",
+        "url": "https://bwmri.gov.bd/pages/static-pages/6922def6933eb65569e1ebb3",
+        "locator": "জাতের পাতা > জাতের বৈশিষ্ট্য > উপযোগী এলাকা > ফলন",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0053",
+      "crop_or_system": "Bt Brinjal",
+      "metric": "Reported yield — reported range",
+      "value": "50-60",
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "বিটি বেগুনের উন্নত উৎপাদন প্রযুক্তি",
+        "url": "https://baritechnology.org/m/crops/tech_detail/333",
+        "locator": "প্রযুক্তির বিবরণ > varieties/seedlings > soil and planting > irrigation, harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0054",
+      "crop_or_system": "Bt Brinjal",
+      "metric": "Reported yield — minimum",
+      "value": 50,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "বিটি বেগুনের উন্নত উৎপাদন প্রযুক্তি",
+        "url": "https://baritechnology.org/m/crops/tech_detail/333",
+        "locator": "প্রযুক্তির বিবরণ > varieties/seedlings > soil and planting > irrigation, harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0055",
+      "crop_or_system": "Bt Brinjal",
+      "metric": "Reported yield — maximum",
+      "value": 60,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "বিটি বেগুনের উন্নত উৎপাদন প্রযুক্তি",
+        "url": "https://baritechnology.org/m/crops/tech_detail/333",
+        "locator": "প্রযুক্তির বিবরণ > varieties/seedlings > soil and planting > irrigation, harvest, yield and finance",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    },
+    {
+      "id": "baseline_0056",
+      "crop_or_system": "Onion",
+      "metric": "Reported yield",
+      "value": 11.2,
+      "unit": "tonne/ha",
+      "main_source": {
+        "institution": "Bangladesh Agricultural Research Institute (BARI)",
+        "title": "পেঁয়াজ/মুগডাল-পাট-রোপা আমন ধান: কুড়িগ্রাম অঞ্চলের একটি চার ফসল ভিত্তিক উন্নত ফসল বিন্যাস",
+        "url": "https://baritechnology.org/m/crops/tech_detail/348",
+        "locator": "প্রযুক্তির বিবরণ > fertilizer table > management, harvest and yield",
+        "medium": "Official webpage/table"
+      },
+      "verification_status": "verified_against_visible_official_source",
+      "verified_on": "2026-07-24"
+    }
+  ],
+  "scenario_engine_rules": [
+    {
+      "id": "scenario_rule_001",
+      "scenario": "budget_cut_percent",
+      "input": "budget_cut_percent",
+      "deterministic_update": [
+        "new_budget = baseline_budget × (1 − budget_cut_percent/100)",
+        "recompute affordability for each itemized cost",
+        "do not reduce agronomic quantities automatically unless a validated minimum or alternative exists",
+        "recompute total cost, revenue, net profit, ROI and break-even"
+      ],
+      "evidence_type": "deterministic_financial_logic",
+      "validation_requirement": "Yield penalty requires a verified crop-response rule; otherwise report it as unknown."
+    },
+    {
+      "id": "scenario_rule_002",
+      "scenario": "rainfall_change_percent",
+      "input": "rainfall_change_percent",
+      "deterministic_update": [
+        "scenario_rainfall = baseline_rainfall × (1 + rainfall_change_percent/100)",
+        "recalculate effective rainfall",
+        "recalculate net irrigation need using ETc and soil-water status",
+        "recalculate irrigation cost",
+        "change expected yield only when a verified water-stress response is available"
+      ],
+      "evidence_type": "FAO_method_plus_scenario_arithmetic",
+      "main_source": {
+        "institution": "FAO",
+        "title": "Irrigation Water Needs and Irrigation Scheduling",
+        "url": "https://www.fao.org/4/s2022e/s2022e04.htm"
+      }
+    },
+    {
+      "id": "scenario_rule_003",
+      "scenario": "selling_price_change_percent",
+      "input": "selling_price_change_percent",
+      "deterministic_update": [
+        "scenario_price = baseline_price × (1 + selling_price_change_percent/100)",
+        "revenue = marketable_yield × scenario_price",
+        "net_profit = revenue − total_cost",
+        "ROI = net_profit / total_cost × 100",
+        "break_even_price = total_cost / marketable_yield"
+      ],
+      "evidence_type": "deterministic_financial_logic"
+    },
+    {
+      "id": "scenario_rule_004",
+      "scenario": "input_price_change_percent",
+      "input": [
+        "input_item",
+        "input_price_change_percent"
+      ],
+      "deterministic_update": [
+        "scenario_item_price = baseline_item_price × (1 + input_price_change_percent/100)",
+        "scenario_item_cost = scenario_item_price × planned_quantity",
+        "recompute total cost, net profit, ROI and break-even"
+      ],
+      "evidence_type": "deterministic_financial_logic"
+    },
+    {
+      "id": "scenario_rule_005",
+      "scenario": "sowing_delay_days",
+      "input": "sowing_delay_days",
+      "deterministic_update": [
+        "shift all relative calendar dates by the delay",
+        "retrieve weather for the revised dates",
+        "re-run stage-specific weather and pest/disease rules",
+        "do not change yield without a verified late-sowing response factor"
+      ],
+      "evidence_type": "deterministic_calendar_logic"
+    }
+  ]
+}

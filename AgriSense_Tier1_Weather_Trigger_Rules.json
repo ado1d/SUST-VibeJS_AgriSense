@@ -1,0 +1,974 @@
+[
+  {
+    "id": "trigger_0001",
+    "crop": "Maize",
+    "operation_or_alert": "Pest scouting alert: Fall armyworm",
+    "trigger": {
+      "growth_stage": "All stages",
+      "weather_conditions": {
+        "soil_condition": "Sandy-clay or clay-sand soils favour pupation and adult emergence",
+        "source_favourable_weather_text": "Development threshold 10.9°C and 559 day-degrees; pupal threshold 14.6°C and 138 day-degrees; above 30°C adult wings may deform."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Fall armyworm scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0001",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0002",
+    "crop": "Maize",
+    "operation_or_alert": "Pest scouting alert: Leaf hopper",
+    "trigger": {
+      "growth_stage": "Vegetative stage",
+      "weather_conditions": {
+        "temperature_min_c": 32.5,
+        "temperature_max_c": 32.5,
+        "relative_humidity_min_percent": 68,
+        "relative_humidity_max_percent": 68,
+        "source_favourable_weather_text": "Temperature 32.5°C and relative humidity 68%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Leaf hopper scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0002",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0003",
+    "crop": "Maize",
+    "operation_or_alert": "Pest scouting alert: Jassid",
+    "trigger": {
+      "growth_stage": "Vegetative stage",
+      "weather_conditions": {
+        "temperature_min_c": 36,
+        "temperature_max_c": 36,
+        "relative_humidity_min_percent": 68,
+        "relative_humidity_max_percent": 68,
+        "source_favourable_weather_text": "Temperature 36°C with relative humidity 68%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Jassid scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0003",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0004",
+    "crop": "Maize",
+    "operation_or_alert": "Disease scouting alert: Stalk rot",
+    "trigger": {
+      "growth_stage": "Vegetative to reproductive stage",
+      "weather_conditions": {
+        "temperature_min_c": 18,
+        "temperature_max_c": 35,
+        "relative_humidity_min_percent": 90,
+        "source_favourable_weather_text": "Temperature 18–35°C and relative humidity 90%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Stalk rot scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0004",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0005",
+    "crop": "Maize",
+    "operation_or_alert": "Disease scouting alert: Leaf blight",
+    "trigger": {
+      "growth_stage": "Vegetative stage",
+      "weather_conditions": {
+        "temperature_min_c": 22,
+        "temperature_max_c": 32.5,
+        "relative_humidity_min_percent": 90,
+        "source_favourable_weather_text": "Temperature 22–32.5°C and relative humidity greater than 90%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Leaf blight scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0005",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0006",
+    "crop": "Potato",
+    "operation_or_alert": "Disease scouting alert: Potato scab",
+    "trigger": {
+      "growth_stage": "December to February",
+      "weather_conditions": {
+        "temperature_min_c": 15,
+        "temperature_max_c": 25,
+        "relative_humidity_min_percent": 70,
+        "relative_humidity_max_percent": 90,
+        "source_favourable_weather_text": "Temperature 15–25°C and relative humidity 70–90%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Potato scab scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0006",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0007",
+    "crop": "Potato",
+    "operation_or_alert": "Disease scouting alert: Bacterial wilt",
+    "trigger": {
+      "growth_stage": "Seedling to vegetative stage",
+      "weather_conditions": {
+        "temperature_min_c": 28,
+        "temperature_max_c": 30,
+        "relative_humidity_min_percent": 80,
+        "relative_humidity_max_percent": 90,
+        "source_favourable_weather_text": "High night temperature 28–30°C and relative humidity 80–90%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Bacterial wilt scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0007",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0008",
+    "crop": "Potato",
+    "operation_or_alert": "Disease/vector scouting alert: Leaf roll virus vector risk",
+    "trigger": {
+      "growth_stage": "Seedling to tuber bulking",
+      "weather_conditions": {
+        "temperature_min_c": 18,
+        "temperature_max_c": 20,
+        "relative_humidity_min_percent": 70,
+        "relative_humidity_max_percent": 70,
+        "source_favourable_weather_text": "Average temperature 18–20°C and relative humidity 70% for the vector."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Leaf roll virus vector risk scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0008",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0009",
+    "crop": "Potato",
+    "operation_or_alert": "Disease scouting alert: Late blight",
+    "trigger": {
+      "growth_stage": "Seedling to maturity",
+      "weather_conditions": {
+        "temperature_min_c": 16,
+        "temperature_max_c": 20,
+        "cloud_or_fog_condition": "Cold and humid weather; drizzle, fog and dew accumulation",
+        "source_favourable_weather_text": "Temperature 16–20°C with cold, humid, foggy or drizzling weather and dew on leaves."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Late blight scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0009",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0010",
+    "crop": "Potato",
+    "operation_or_alert": "Disease scouting alert: Fusarium wilt",
+    "trigger": {
+      "growth_stage": "Seedling to vegetative stage",
+      "weather_conditions": {
+        "temperature_min_c": 28,
+        "temperature_max_c": 30,
+        "relative_humidity_min_percent": 80,
+        "relative_humidity_max_percent": 90,
+        "source_favourable_weather_text": "High night temperature 28–30°C and relative humidity 80–90%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Fusarium wilt scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0010",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0011",
+    "crop": "Potato",
+    "operation_or_alert": "Pest scouting alert: Cutworm",
+    "trigger": {
+      "growth_stage": "Growing potato plants",
+      "weather_conditions": {
+        "temperature_min_c": 16,
+        "temperature_max_c": 23,
+        "rainfall_condition": "Persistent dry weather with low or no rainfall",
+        "source_favourable_weather_text": "Dry weather, reduced humidity and temperature 16–23°C."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Cutworm scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0011",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0012",
+    "crop": "Potato",
+    "operation_or_alert": "Pest scouting alert: Wireworm",
+    "trigger": {
+      "growth_stage": "Tuber initiation to harvest",
+      "weather_conditions": {
+        "temperature_min_c": 10,
+        "temperature_max_c": 27,
+        "soil_condition": "Soil temperature condition",
+        "source_favourable_weather_text": "Soil temperature 10–27°C."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Wireworm scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0012",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0013",
+    "crop": "Rice",
+    "operation_or_alert": "Disease scouting alert: Blast",
+    "trigger": {
+      "growth_stage": "All stages",
+      "weather_conditions": {
+        "temperature_min_c": 16,
+        "temperature_max_c": 30,
+        "relative_humidity_min_percent": 90,
+        "cloud_or_fog_condition": "Cloudy",
+        "source_favourable_weather_text": "Night temperature 16–20°C for 10 hours, day temperature 25–30°C for 10 hours, relative humidity above 90%, cloudy weather."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Blast scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0013",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0014",
+    "crop": "Rice",
+    "operation_or_alert": "Disease scouting alert: Brown spot",
+    "trigger": {
+      "growth_stage": "All stages",
+      "weather_conditions": {
+        "temperature_min_c": 28,
+        "temperature_max_c": 30,
+        "cloud_or_fog_condition": "Cloudy with high relative humidity",
+        "source_favourable_weather_text": "Temperature 28–30°C, high relative humidity and cloudy weather."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Brown spot scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0014",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0015",
+    "crop": "Rice",
+    "operation_or_alert": "Disease scouting alert: Bacterial blight",
+    "trigger": {
+      "growth_stage": "Seedling to flowering",
+      "weather_conditions": {
+        "temperature_min_c": 28,
+        "temperature_max_c": 30,
+        "relative_humidity_min_percent": 80,
+        "relative_humidity_max_percent": 90,
+        "rainfall_condition": "Rainfall above 30 mm",
+        "cloud_or_fog_condition": "Cloudiness",
+        "source_favourable_weather_text": "Temperature 28–30°C, relative humidity 80–90%, cloudiness and rainfall above 30 mm."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Bacterial blight scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0015",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0016",
+    "crop": "Rice",
+    "operation_or_alert": "Disease scouting alert: Foot rot",
+    "trigger": {
+      "growth_stage": "Seedling to tillering",
+      "weather_conditions": {
+        "temperature_min_c": 28,
+        "temperature_max_c": 30,
+        "relative_humidity_min_percent": 90,
+        "rainfall_condition": "Intermittent rainfall",
+        "cloud_or_fog_condition": "Cloudy",
+        "source_favourable_weather_text": "Temperature 28–30°C, relative humidity above 90%, intermittent rainfall and cloudy weather."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Foot rot scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0016",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0017",
+    "crop": "Rice",
+    "operation_or_alert": "Disease scouting alert: Sheath blight",
+    "trigger": {
+      "growth_stage": "Maximum tillering to dough",
+      "weather_conditions": {
+        "temperature_min_c": 28,
+        "temperature_max_c": 32,
+        "cloud_or_fog_condition": "Cloudy with high relative humidity",
+        "source_favourable_weather_text": "Temperature 28–32°C, high relative humidity and cloudy weather."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Sheath blight scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0017",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0018",
+    "crop": "Rice",
+    "operation_or_alert": "Disease scouting alert: Sheath rot",
+    "trigger": {
+      "growth_stage": "Booting",
+      "weather_conditions": {
+        "temperature_min_c": 25,
+        "temperature_max_c": 28,
+        "relative_humidity_min_percent": 90,
+        "cloud_or_fog_condition": "Cloudy",
+        "source_favourable_weather_text": "Temperature 25–28°C, cloudy weather and relative humidity above 90%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Sheath rot scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0018",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0019",
+    "crop": "Rice",
+    "operation_or_alert": "Disease scouting alert: False smut",
+    "trigger": {
+      "growth_stage": "Soft dough to ripening",
+      "weather_conditions": {
+        "temperature_min_c": 22,
+        "temperature_max_c": 27,
+        "source_favourable_weather_text": "Temperature 22–27°C."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a False smut scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0019",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0020",
+    "crop": "Rice",
+    "operation_or_alert": "Pest scouting alert: Rice hispa",
+    "trigger": {
+      "growth_stage": "Seedling to flowering",
+      "weather_conditions": {
+        "temperature_min_c": 24,
+        "temperature_max_c": 35,
+        "relative_humidity_min_percent": 75,
+        "relative_humidity_max_percent": 99,
+        "source_favourable_weather_text": "Maximum temperature 32–35°C, minimum 24–26°C; maximum RH 96–99% and minimum RH 75–81%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Rice hispa scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0020",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0021",
+    "crop": "Rice",
+    "operation_or_alert": "Pest scouting alert: Rice caseworm",
+    "trigger": {
+      "growth_stage": "Early to maximum tillering",
+      "weather_conditions": {
+        "relative_humidity_min_percent": 90,
+        "cloud_or_fog_condition": "Cloudy",
+        "source_favourable_weather_text": "Relative humidity above 90% and cloudy weather."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Rice caseworm scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0021",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0022",
+    "crop": "Rice",
+    "operation_or_alert": "Pest scouting alert: Brown planthopper",
+    "trigger": {
+      "growth_stage": "Maximum tillering to dough",
+      "weather_conditions": {
+        "temperature_min_c": 32,
+        "relative_humidity_min_percent": 80,
+        "relative_humidity_max_percent": 90,
+        "rainfall_condition": "Drizzle with rainfall less than 75 mm",
+        "source_favourable_weather_text": "Maximum temperature above 32°C, relative humidity 80–90%, and drizzle with rainfall below 75 mm."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Brown planthopper scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0022",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0023",
+    "crop": "Rice",
+    "operation_or_alert": "Pest scouting alert: Yellow stem borer",
+    "trigger": {
+      "growth_stage": "Early tillering to flowering",
+      "weather_conditions": {
+        "temperature_min_c": 20.3,
+        "temperature_max_c": 34.7,
+        "relative_humidity_min_percent": 38.7,
+        "source_favourable_weather_text": "Minimum temperature above 20.3°C, maximum 29.5–34.7°C, optimum 24–29°C, morning RH above 84%, afternoon RH above 38.7%, and dry weather."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Yellow stem borer scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0023",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0024",
+    "crop": "Rice",
+    "operation_or_alert": "Pest scouting alert: Leaf folder",
+    "trigger": {
+      "growth_stage": "Mid tillering to dough",
+      "weather_conditions": {
+        "temperature_min_c": 21.6,
+        "temperature_max_c": 31.9,
+        "relative_humidity_min_percent": 90,
+        "cloud_or_fog_condition": "Cloudy",
+        "source_favourable_weather_text": "Maximum temperature above 31.9°C, minimum below 21.6°C, relative humidity 90%, cloudy weather."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Leaf folder scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0024",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0025",
+    "crop": "Rice",
+    "operation_or_alert": "Pest scouting alert: Rice bug",
+    "trigger": {
+      "growth_stage": "Flowering to milking",
+      "weather_conditions": {
+        "temperature_min_c": 22.1,
+        "temperature_max_c": 31.9,
+        "relative_humidity_min_percent": 66.4,
+        "rainfall_condition": "Weekly rainfall below 40.9 mm",
+        "sunshine_condition": "Bright sunshine above 5.9 hours",
+        "source_favourable_weather_text": "Maximum temperature above 31.9°C, minimum below 22.1°C, morning RH above 93.9%, afternoon RH below 66.4%, weekly rainfall below 40.9 mm and bright sunshine above 5.9 hours."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Rice bug scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0025",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0026",
+    "crop": "Mustard",
+    "operation_or_alert": "Disease scouting alert: Stem rot",
+    "trigger": {
+      "growth_stage": "Vegetative to pod initiation",
+      "weather_conditions": {
+        "temperature_min_c": 27,
+        "temperature_max_c": 35,
+        "soil_condition": "Humid condition and soil pH below 7",
+        "source_favourable_weather_text": "Temperature 27–35°C with humid conditions and low pH below 7."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Stem rot scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0026",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0027",
+    "crop": "Mustard",
+    "operation_or_alert": "Disease scouting alert: Alternaria leaf blight",
+    "trigger": {
+      "growth_stage": "Vegetative to pod initiation",
+      "weather_conditions": {
+        "temperature_min_c": 25,
+        "temperature_max_c": 28,
+        "cloud_or_fog_condition": "Heavy dew",
+        "source_favourable_weather_text": "Temperature 25–28°C with heavy dew."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Alternaria leaf blight scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0027",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0028",
+    "crop": "Green gram",
+    "operation_or_alert": "Pest scouting alert: Aphid",
+    "trigger": {
+      "growth_stage": "Vegetative to pod initiation",
+      "weather_conditions": {
+        "temperature_min_c": 18,
+        "temperature_max_c": 25,
+        "relative_humidity_min_percent": 60,
+        "relative_humidity_max_percent": 70,
+        "source_favourable_weather_text": "Temperature 18–25°C and relative humidity 60–70%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Aphid scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0028",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0029",
+    "crop": "Green gram",
+    "operation_or_alert": "Pest scouting alert: Thrips",
+    "trigger": {
+      "growth_stage": "Vegetative to flowering",
+      "weather_conditions": {
+        "temperature_min_c": 16,
+        "temperature_max_c": 28,
+        "rainfall_condition": "Rainfall 30 mm; dry and moderately high temperature",
+        "source_favourable_weather_text": "Dry and moderately high temperature 16–28°C with rainfall 30 mm."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Thrips scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0029",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0030",
+    "crop": "Green gram",
+    "operation_or_alert": "Pest scouting alert: Pod borer",
+    "trigger": {
+      "growth_stage": "Flowering to pod initiation",
+      "weather_conditions": {
+        "temperature_min_c": 16,
+        "temperature_max_c": 30,
+        "relative_humidity_min_percent": 50,
+        "relative_humidity_max_percent": 85,
+        "sunshine_condition": "6.4 hours",
+        "source_favourable_weather_text": "Temperature 16–30°C, relative humidity 50–85%, sunshine 6.4 hours."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Pod borer scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0030",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0031",
+    "crop": "Lentil",
+    "operation_or_alert": "Disease scouting alert: Stemphylium blight",
+    "trigger": {
+      "growth_stage": "Vegetative to pod initiation",
+      "weather_conditions": {
+        "temperature_min_c": 11,
+        "temperature_max_c": 25,
+        "relative_humidity_min_percent": 40,
+        "relative_humidity_max_percent": 96,
+        "cloud_or_fog_condition": "Cloudy or foggy",
+        "soil_condition": "Soil temperature above 32°C and soil moisture 2.5–18.8%",
+        "source_favourable_weather_text": "Temperature 11–25°C; day 20–22°C; night 4–5°C; maximum RH 90–96%, minimum RH 40–48%; cloudy or foggy weather."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Stemphylium blight scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0031",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0032",
+    "crop": "Lentil",
+    "operation_or_alert": "Disease scouting alert: Rust",
+    "trigger": {
+      "growth_stage": "Flowering to pod initiation",
+      "weather_conditions": {
+        "temperature_min_c": 20,
+        "temperature_max_c": 22,
+        "relative_humidity_min_percent": 85,
+        "relative_humidity_max_percent": 90,
+        "source_favourable_weather_text": "Relative humidity 85–90% and temperature 20–22°C."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Rust scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0032",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0033",
+    "crop": "Lentil",
+    "operation_or_alert": "Disease scouting alert: Foot rot",
+    "trigger": {
+      "growth_stage": "Germination to vegetative",
+      "weather_conditions": {
+        "temperature_min_c": 20,
+        "temperature_max_c": 27,
+        "source_favourable_weather_text": "Temperature 20–27°C."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Foot rot scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0033",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0034",
+    "crop": "Lentil",
+    "operation_or_alert": "Disease scouting alert: Fusarium wilt",
+    "trigger": {
+      "growth_stage": "Germination to pod initiation",
+      "weather_conditions": {
+        "temperature_min_c": 25,
+        "temperature_max_c": 25,
+        "source_favourable_weather_text": "Hot and dry weather with optimum temperature around 25°C."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Fusarium wilt scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0034",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0035",
+    "crop": "Wheat",
+    "operation_or_alert": "Pest scouting alert: Aphid",
+    "trigger": {
+      "growth_stage": "Vegetative to reproductive",
+      "weather_conditions": {
+        "temperature_min_c": 18.7,
+        "temperature_max_c": 29.1,
+        "relative_humidity_min_percent": 55,
+        "relative_humidity_max_percent": 71,
+        "source_favourable_weather_text": "Mean temperature 18.7°C and RH 71%; a weekly mean case of 29.1°C and RH 55% is also reported."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Aphid scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0035",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0036",
+    "crop": "Wheat",
+    "operation_or_alert": "Pest scouting alert: Stem borer",
+    "trigger": {
+      "growth_stage": "Vegetative stage",
+      "weather_conditions": {
+        "temperature_min_c": 22.2,
+        "temperature_max_c": 33.9,
+        "relative_humidity_min_percent": 80,
+        "rainfall_condition": "Rainfall",
+        "source_favourable_weather_text": "Maximum 31.9–33.9°C, minimum 22.2–26.3°C, average 26.9–29.5°C, average RH 80%, with rainfall."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Stem borer scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0036",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0037",
+    "crop": "Groundnut",
+    "operation_or_alert": "Pest scouting alert: Thrips",
+    "trigger": {
+      "growth_stage": "Vegetative to flowering",
+      "weather_conditions": {
+        "temperature_min_c": 16,
+        "temperature_max_c": 28,
+        "rainfall_condition": "Rainfall 30 mm; dry moderately high temperature",
+        "source_favourable_weather_text": "Dry and moderately high temperature 16–28°C with rainfall 30 mm."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Thrips scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0037",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0038",
+    "crop": "Groundnut",
+    "operation_or_alert": "Pest scouting alert: Jassid",
+    "trigger": {
+      "growth_stage": "Vegetative to flowering",
+      "weather_conditions": {
+        "temperature_min_c": 30,
+        "temperature_max_c": 38,
+        "source_favourable_weather_text": "Dry and hot weather 30–38°C."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Jassid scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0038",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0039",
+    "crop": "Groundnut",
+    "operation_or_alert": "Pest scouting alert: Termite",
+    "trigger": {
+      "growth_stage": "Vegetative to maturity",
+      "weather_conditions": {
+        "temperature_min_c": 24,
+        "temperature_max_c": 34,
+        "soil_condition": "Sandy to sandy-loam soil",
+        "source_favourable_weather_text": "Temperature 24–34°C and sandy to sandy-loam soil."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Termite scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0039",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0040",
+    "crop": "Sugarcane",
+    "operation_or_alert": "Pest scouting alert: Stem borer",
+    "trigger": {
+      "growth_stage": "Tillering to grand growth",
+      "weather_conditions": {
+        "temperature_min_c": 30,
+        "temperature_max_c": 35,
+        "relative_humidity_min_percent": 46,
+        "relative_humidity_max_percent": 76,
+        "source_favourable_weather_text": "Temperature 30–35°C and relative humidity 46–76%."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Stem borer scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0040",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0041",
+    "crop": "Sugarcane",
+    "operation_or_alert": "Pest scouting alert: Top shoot borer",
+    "trigger": {
+      "growth_stage": "Tillering",
+      "weather_conditions": {
+        "temperature_max_c": 37.8,
+        "relative_humidity_min_percent": 60,
+        "relative_humidity_max_percent": 80,
+        "sunshine_condition": "9.1 hours",
+        "source_favourable_weather_text": "Temperature below 37.8°C, relative humidity 60–80%, sunshine 9.1 hours."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Top shoot borer scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0041",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0042",
+    "crop": "Sugarcane",
+    "operation_or_alert": "Pest scouting alert: Termite",
+    "trigger": {
+      "growth_stage": "Germination to harvest",
+      "weather_conditions": {
+        "temperature_min_c": 24,
+        "temperature_max_c": 35,
+        "soil_condition": "Sandy to sandy-loam soil",
+        "source_favourable_weather_text": "Temperature 24–35°C and sandy to sandy-loam soil."
+      },
+      "match_policy": "all available numeric conditions plus relevant text conditions"
+    },
+    "recommended_agent_action": "Raise a Termite scouting alert, show the matched weather values, ask for field symptoms, and do not diagnose solely from weather.",
+    "reasoning": "BAMIS reports the weather and stage as favourable for the named risk.",
+    "evidence_type": "source_threshold",
+    "linked_source_record_id": "risk_0042",
+    "verification_status": "source_extracted_threshold_with_derived_agent_action",
+    "human_review_required": true
+  },
+  {
+    "id": "trigger_0043",
+    "crop": "All non-rice crops",
+    "operation_or_alert": "Daily irrigation recalculation",
+    "trigger": {
+      "required_inputs": [
+        "ET0",
+        "crop coefficient Kc",
+        "effective rainfall",
+        "soil-water status"
+      ],
+      "formula": "ETc = Kc × ET0"
+    },
+    "recommended_agent_action": "Recalculate crop water use and subtract effective rainfall before recommending irrigation.",
+    "reasoning": "FAO bases crop evapotranspiration on Kc and ET0 and adjusts irrigation need for rainfall.",
+    "evidence_type": "official_methodology",
+    "main_source": {
+      "institution": "FAO and Open-Meteo",
+      "title": "FAO irrigation scheduling principles and Open-Meteo Forecast API",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "secondary_url": "https://open-meteo.com/en/docs"
+    },
+    "verification_status": "verified_method_with_deterministic_execution",
+    "human_review_required": false
+  },
+  {
+    "id": "trigger_0044",
+    "crop": "All non-rice crops",
+    "operation_or_alert": "Rainfall-based irrigation rescheduling",
+    "trigger": {
+      "condition": "Forecast or measured effective rainfall reduces the accumulated water deficit",
+      "variables": [
+        "precipitation_sum",
+        "soil_moisture",
+        "ET0"
+      ]
+    },
+    "recommended_agent_action": "Reduce, postpone or cancel the next irrigation only after recalculating the water deficit.",
+    "reasoning": "FAO irrigation scheduling guidance recommends adjusting the water deficit using rainfall.",
+    "evidence_type": "official_methodology",
+    "main_source": {
+      "institution": "FAO and Open-Meteo",
+      "title": "FAO irrigation scheduling principles and Open-Meteo Forecast API",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "secondary_url": "https://open-meteo.com/en/docs"
+    },
+    "verification_status": "verified_method_with_deterministic_execution",
+    "human_review_required": false
+  },
+  {
+    "id": "trigger_0045",
+    "crop": "All crops",
+    "operation_or_alert": "Nitrogen application weather review",
+    "trigger": {
+      "condition": "Forecast rain overlaps the planned nitrogen top-dressing date",
+      "threshold": "Must be configured from an approved local agronomic rule; do not invent a universal millimetre threshold"
+    },
+    "recommended_agent_action": "Flag the operation for rescheduling review and show the forecast. Apply a delay only when the configured approved rule is met.",
+    "reasoning": "The hackathon requires weather-triggered plan adjustment; an agronomic threshold must come from a validated local source.",
+    "evidence_type": "product_execution_rule",
+    "main_source": {
+      "institution": "IUT Bdapps Agentic AI Hackathon",
+      "title": "AgriSense AI Final Round Problem Statement",
+      "locator": "Tier 1 proactive weather-triggered advice"
+    },
+    "verification_status": "product_requirement_not_a_universal_agronomic_threshold",
+    "human_review_required": true
+  }
+]

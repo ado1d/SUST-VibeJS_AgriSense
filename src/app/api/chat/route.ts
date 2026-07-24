@@ -8,7 +8,7 @@ export const maxDuration = 60;
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { sessionId, message } = body as { sessionId?: string; message?: string };
+    const { sessionId, message, language } = body as { sessionId?: string; message?: string; language?: string };
 
     if (!message || typeof message !== 'string') {
       return NextResponse.json({ error: 'message is required' }, { status: 400 });
@@ -17,7 +17,11 @@ export async function POST(req: NextRequest) {
     // Generate a sessionId if not provided
     const sid = sessionId || `s-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
 
-    const result = await runAgent(sid, message);
+    if (language !== undefined && language !== 'en' && language !== 'bn') {
+      return NextResponse.json({ error: 'language must be en or bn' }, { status: 400 });
+    }
+
+    const result = await runAgent(sid, message, language === 'bn' ? 'bn' : 'en');
 
     return NextResponse.json({
       sessionId: sid,
@@ -28,7 +32,7 @@ export async function POST(req: NextRequest) {
   } catch (err: any) {
     console.error('[/api/chat] error:', err);
     return NextResponse.json(
-      { error: err.message || 'Internal server error', stack: err.stack },
+      { error: err.message || 'Internal server error' },
       { status: 500 },
     );
   }

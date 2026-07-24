@@ -1,7 +1,7 @@
 // Tool 2: recommend_crops — ranks 3+ candidate crops for the farm profile + season + weather
 // Tier 0 #3. Each recommendation cites the retrieved KB data + weather it used.
 
-import { CROPS, SOILS, INPUT_COSTS, MAUND_TO_KG, type CropRecord, type Season } from '@/lib/kb/crops';
+import { CROPS, SOILS, INPUT_COSTS, type CropRecord, type Season } from '@/lib/kb/crops';
 import { getCropsForSeason, ragSearch } from '@/lib/kb/rag';
 import type { WeatherResult } from './weather';
 
@@ -110,6 +110,9 @@ function computePerAcreRevenue(crop: CropRecord): { revenueBdt: number; yieldMau
 }
 
 export async function recommendCrops(profile: FarmProfile, weather: WeatherResult | null): Promise<RecommendResult> {
+  if (!Number.isFinite(profile.farmSizeDecimal) || (profile.farmSizeDecimal as number) <= 0) {
+    throw new Error('farmSizeDecimal must be a positive number before recommending crops');
+  }
   const season = (profile.targetSeason || 'rabi') as Season;
   let candidates = getCropsForSeason(season);
 

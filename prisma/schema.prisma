@@ -29,6 +29,7 @@ model Farmer {
 
   conversations   Conversation[]
   traces          TraceEntry[]
+  seasonPlans     SeasonPlan[]
 }
 
 model Conversation {
@@ -56,4 +57,88 @@ model TraceEntry {
   farmer     Farmer   @relation(fields: [farmerId], references: [id], onDelete: Cascade)
 
   @@index([farmerId])
+}
+
+// Tier 1 Persistent Memory Models
+model SeasonPlan {
+  id                  String   @id @default(cuid())
+  farmerId            String
+  crop                String
+  variety             String?
+  season              String?
+  sowingDate          String?
+  expectedHarvestDate String?
+  currentGrowthStage  String?  @default("Sowing")
+  planStatus          String   @default("active")
+  baselineBudgetBdt   Float?
+  expectedYieldValue  Float?
+  expectedYieldUnit   String?  @default("kg")
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  farmer              Farmer   @relation(fields: [farmerId], references: [id], onDelete: Cascade)
+  operations          FarmOperation[]
+  weatherChecks       WeatherCheck[]
+  alerts              Alert[]
+  scenarioRuns        ScenarioRun[]
+
+  @@index([farmerId])
+}
+
+model FarmOperation {
+  id               String   @id @default(cuid())
+  seasonPlanId     String
+  operationType    String   // fertilizer | irrigation | weeding | pest_control | harvest
+  plannedDate      String?
+  revisedDate      String?
+  growthStage      String?
+  plannedQuantity  Float?
+  quantityUnit     String?
+  estimatedCostBdt Float?
+  operationStatus  String   @default("planned")
+  reason           String?
+  createdAt        DateTime @default(now())
+
+  seasonPlan       SeasonPlan @relation(fields: [seasonPlanId], references: [id], onDelete: Cascade)
+
+  @@index([seasonPlanId])
+}
+
+model WeatherCheck {
+  id             String   @id @default(cuid())
+  seasonPlanId   String
+  checkedAt      DateTime @default(now())
+  forecastStart  String?
+  forecastEnd    String?
+  requestUrl     String?
+
+  seasonPlan     SeasonPlan @relation(fields: [seasonPlanId], references: [id], onDelete: Cascade)
+
+  @@index([seasonPlanId])
+}
+
+model Alert {
+  id               String   @id @default(cuid())
+  seasonPlanId     String
+  alertType        String   // pest | disease | heavy_rain | drought | heat
+  severity         String   // high | moderate | low
+  messageEn         String
+  createdAt        DateTime @default(now())
+
+  seasonPlan       SeasonPlan @relation(fields: [seasonPlanId], references: [id], onDelete: Cascade)
+
+  @@index([seasonPlanId])
+}
+
+model ScenarioRun {
+  id           String   @id @default(cuid())
+  seasonPlanId String
+  scenarioType String   // budget_cut | rainfall_change | price_change | sowing_delay
+  inputJson    String   // JSON string
+  outputJson   String   // JSON string
+  createdAt    DateTime @default(now())
+
+  seasonPlan   SeasonPlan @relation(fields: [seasonPlanId], references: [id], onDelete: Cascade)
+
+  @@index([seasonPlanId])
 }

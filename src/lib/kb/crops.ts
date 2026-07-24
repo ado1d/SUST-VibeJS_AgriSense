@@ -24,7 +24,7 @@ export interface CropRecord {
   waterSourcePreference: string[]; // preferred water sources in priority order
   suitableSoils: string[];       // sandy | loamy | clay | saline | silty
   rainfallTolerance: 'low' | 'medium' | 'high';
-  fertilizerKgPerAcre: { npk15_15_15?: number; urea?: number; tsp?: number; mop?: number; gypsum?: number; zinc?: number };
+  fertilizerKgPerAcre: { npk15_15_15?: number; urea?: number; tsp?: number; mop?: number; gypsum?: number; zinc?: number; boron?: number };
   typicalYieldPerAcre: { min: number; max: number; unit: string }; // unit: maund or kg
   typicalPricePerUnit: { min: number; max: number; unit: string; currency: 'BDT' };
   majorPests: string[];

@@ -1,0 +1,994 @@
+[
+  {
+    "id": "risk_0001",
+    "crop": "Maize",
+    "risk_name": "Fall armyworm",
+    "risk_type": "Pest",
+    "growth_stage": "All stages",
+    "weather_conditions": {
+      "soil_condition": "Sandy-clay or clay-sand soils favour pupation and adult emergence",
+      "source_favourable_weather_text": "Development threshold 10.9°C and 559 day-degrees; pupal threshold 14.6°C and 138 day-degrees; above 30°C adult wings may deform."
+    },
+    "content": "BAMIS lists Fall armyworm as a pest risk for Maize. The reported infestation stage is All stages. The source describes favourable weather as: Development threshold 10.9°C and 559 day-degrees; pupal threshold 14.6°C and 138 day-degrees; above 30°C adult wings may deform.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Maize",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/8/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0002",
+    "crop": "Maize",
+    "risk_name": "Leaf hopper",
+    "risk_type": "Pest",
+    "growth_stage": "Vegetative stage",
+    "weather_conditions": {
+      "temperature_min_c": 32.5,
+      "temperature_max_c": 32.5,
+      "relative_humidity_min_percent": 68,
+      "relative_humidity_max_percent": 68,
+      "source_favourable_weather_text": "Temperature 32.5°C and relative humidity 68%."
+    },
+    "content": "BAMIS lists Leaf hopper as a pest risk for Maize. The reported infestation stage is Vegetative stage. The source describes favourable weather as: Temperature 32.5°C and relative humidity 68%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Maize",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/8/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0003",
+    "crop": "Maize",
+    "risk_name": "Jassid",
+    "risk_type": "Pest",
+    "growth_stage": "Vegetative stage",
+    "weather_conditions": {
+      "temperature_min_c": 36,
+      "temperature_max_c": 36,
+      "relative_humidity_min_percent": 68,
+      "relative_humidity_max_percent": 68,
+      "source_favourable_weather_text": "Temperature 36°C with relative humidity 68%."
+    },
+    "content": "BAMIS lists Jassid as a pest risk for Maize. The reported infestation stage is Vegetative stage. The source describes favourable weather as: Temperature 36°C with relative humidity 68%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Maize",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/8/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0004",
+    "crop": "Maize",
+    "risk_name": "Stalk rot",
+    "risk_type": "Disease",
+    "growth_stage": "Vegetative to reproductive stage",
+    "weather_conditions": {
+      "temperature_min_c": 18,
+      "temperature_max_c": 35,
+      "relative_humidity_min_percent": 90,
+      "source_favourable_weather_text": "Temperature 18–35°C and relative humidity 90%."
+    },
+    "content": "BAMIS lists Stalk rot as a disease risk for Maize. The reported infestation stage is Vegetative to reproductive stage. The source describes favourable weather as: Temperature 18–35°C and relative humidity 90%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Maize",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/8/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0005",
+    "crop": "Maize",
+    "risk_name": "Leaf blight",
+    "risk_type": "Disease",
+    "growth_stage": "Vegetative stage",
+    "weather_conditions": {
+      "temperature_min_c": 22,
+      "temperature_max_c": 32.5,
+      "relative_humidity_min_percent": 90,
+      "source_favourable_weather_text": "Temperature 22–32.5°C and relative humidity greater than 90%."
+    },
+    "content": "BAMIS lists Leaf blight as a disease risk for Maize. The reported infestation stage is Vegetative stage. The source describes favourable weather as: Temperature 22–32.5°C and relative humidity greater than 90%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Maize",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/8/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0006",
+    "crop": "Potato",
+    "risk_name": "Potato scab",
+    "risk_type": "Disease",
+    "growth_stage": "December to February",
+    "weather_conditions": {
+      "temperature_min_c": 15,
+      "temperature_max_c": 25,
+      "relative_humidity_min_percent": 70,
+      "relative_humidity_max_percent": 90,
+      "source_favourable_weather_text": "Temperature 15–25°C and relative humidity 70–90%."
+    },
+    "content": "BAMIS lists Potato scab as a disease risk for Potato. The reported infestation stage is December to February. The source describes favourable weather as: Temperature 15–25°C and relative humidity 70–90%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Potato",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/52/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0007",
+    "crop": "Potato",
+    "risk_name": "Bacterial wilt",
+    "risk_type": "Disease",
+    "growth_stage": "Seedling to vegetative stage",
+    "weather_conditions": {
+      "temperature_min_c": 28,
+      "temperature_max_c": 30,
+      "relative_humidity_min_percent": 80,
+      "relative_humidity_max_percent": 90,
+      "source_favourable_weather_text": "High night temperature 28–30°C and relative humidity 80–90%."
+    },
+    "content": "BAMIS lists Bacterial wilt as a disease risk for Potato. The reported infestation stage is Seedling to vegetative stage. The source describes favourable weather as: High night temperature 28–30°C and relative humidity 80–90%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Potato",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/52/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0008",
+    "crop": "Potato",
+    "risk_name": "Leaf roll virus vector risk",
+    "risk_type": "Disease/vector",
+    "growth_stage": "Seedling to tuber bulking",
+    "weather_conditions": {
+      "temperature_min_c": 18,
+      "temperature_max_c": 20,
+      "relative_humidity_min_percent": 70,
+      "relative_humidity_max_percent": 70,
+      "source_favourable_weather_text": "Average temperature 18–20°C and relative humidity 70% for the vector."
+    },
+    "content": "BAMIS lists Leaf roll virus vector risk as a disease/vector risk for Potato. The reported infestation stage is Seedling to tuber bulking. The source describes favourable weather as: Average temperature 18–20°C and relative humidity 70% for the vector.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Potato",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/52/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0009",
+    "crop": "Potato",
+    "risk_name": "Late blight",
+    "risk_type": "Disease",
+    "growth_stage": "Seedling to maturity",
+    "weather_conditions": {
+      "temperature_min_c": 16,
+      "temperature_max_c": 20,
+      "cloud_or_fog_condition": "Cold and humid weather; drizzle, fog and dew accumulation",
+      "source_favourable_weather_text": "Temperature 16–20°C with cold, humid, foggy or drizzling weather and dew on leaves."
+    },
+    "preventive_or_nonchemical_action": "Increase scouting frequency; maintain drainage and avoid prolonged leaf wetness.",
+    "source_reported_treatment": "BAMIS page reports mancozeb 2 g/L; verify current registration and label before use.",
+    "content": "BAMIS lists Late blight as a disease risk for Potato. The reported infestation stage is Seedling to maturity. The source describes favourable weather as: Temperature 16–20°C with cold, humid, foggy or drizzling weather and dew on leaves.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Potato",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/52/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24",
+    "treatment_label_validation_required": true
+  },
+  {
+    "id": "risk_0010",
+    "crop": "Potato",
+    "risk_name": "Fusarium wilt",
+    "risk_type": "Disease",
+    "growth_stage": "Seedling to vegetative stage",
+    "weather_conditions": {
+      "temperature_min_c": 28,
+      "temperature_max_c": 30,
+      "relative_humidity_min_percent": 80,
+      "relative_humidity_max_percent": 90,
+      "source_favourable_weather_text": "High night temperature 28–30°C and relative humidity 80–90%."
+    },
+    "content": "BAMIS lists Fusarium wilt as a disease risk for Potato. The reported infestation stage is Seedling to vegetative stage. The source describes favourable weather as: High night temperature 28–30°C and relative humidity 80–90%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Potato",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/52/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0011",
+    "crop": "Potato",
+    "risk_name": "Cutworm",
+    "risk_type": "Pest",
+    "growth_stage": "Growing potato plants",
+    "weather_conditions": {
+      "temperature_min_c": 16,
+      "temperature_max_c": 23,
+      "rainfall_condition": "Persistent dry weather with low or no rainfall",
+      "source_favourable_weather_text": "Dry weather, reduced humidity and temperature 16–23°C."
+    },
+    "content": "BAMIS lists Cutworm as a pest risk for Potato. The reported infestation stage is Growing potato plants. The source describes favourable weather as: Dry weather, reduced humidity and temperature 16–23°C.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Potato",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/52/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0012",
+    "crop": "Potato",
+    "risk_name": "Wireworm",
+    "risk_type": "Pest",
+    "growth_stage": "Tuber initiation to harvest",
+    "weather_conditions": {
+      "temperature_min_c": 10,
+      "temperature_max_c": 27,
+      "soil_condition": "Soil temperature condition",
+      "source_favourable_weather_text": "Soil temperature 10–27°C."
+    },
+    "preventive_or_nonchemical_action": "Use pheromone trapping and timely earthing up as described by BAMIS.",
+    "content": "BAMIS lists Wireworm as a pest risk for Potato. The reported infestation stage is Tuber initiation to harvest. The source describes favourable weather as: Soil temperature 10–27°C.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Potato",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/52/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0013",
+    "crop": "Rice",
+    "risk_name": "Blast",
+    "risk_type": "Disease",
+    "growth_stage": "All stages",
+    "weather_conditions": {
+      "temperature_min_c": 16,
+      "temperature_max_c": 30,
+      "relative_humidity_min_percent": 90,
+      "cloud_or_fog_condition": "Cloudy",
+      "source_favourable_weather_text": "Night temperature 16–20°C for 10 hours, day temperature 25–30°C for 10 hours, relative humidity above 90%, cloudy weather."
+    },
+    "content": "BAMIS lists Blast as a disease risk for Rice. The reported infestation stage is All stages. The source describes favourable weather as: Night temperature 16–20°C for 10 hours, day temperature 25–30°C for 10 hours, relative humidity above 90%, cloudy weather.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0014",
+    "crop": "Rice",
+    "risk_name": "Brown spot",
+    "risk_type": "Disease",
+    "growth_stage": "All stages",
+    "weather_conditions": {
+      "temperature_min_c": 28,
+      "temperature_max_c": 30,
+      "cloud_or_fog_condition": "Cloudy with high relative humidity",
+      "source_favourable_weather_text": "Temperature 28–30°C, high relative humidity and cloudy weather."
+    },
+    "content": "BAMIS lists Brown spot as a disease risk for Rice. The reported infestation stage is All stages. The source describes favourable weather as: Temperature 28–30°C, high relative humidity and cloudy weather.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0015",
+    "crop": "Rice",
+    "risk_name": "Bacterial blight",
+    "risk_type": "Disease",
+    "growth_stage": "Seedling to flowering",
+    "weather_conditions": {
+      "temperature_min_c": 28,
+      "temperature_max_c": 30,
+      "relative_humidity_min_percent": 80,
+      "relative_humidity_max_percent": 90,
+      "rainfall_condition": "Rainfall above 30 mm",
+      "cloud_or_fog_condition": "Cloudiness",
+      "source_favourable_weather_text": "Temperature 28–30°C, relative humidity 80–90%, cloudiness and rainfall above 30 mm."
+    },
+    "content": "BAMIS lists Bacterial blight as a disease risk for Rice. The reported infestation stage is Seedling to flowering. The source describes favourable weather as: Temperature 28–30°C, relative humidity 80–90%, cloudiness and rainfall above 30 mm.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0016",
+    "crop": "Rice",
+    "risk_name": "Foot rot",
+    "risk_type": "Disease",
+    "growth_stage": "Seedling to tillering",
+    "weather_conditions": {
+      "temperature_min_c": 28,
+      "temperature_max_c": 30,
+      "relative_humidity_min_percent": 90,
+      "rainfall_condition": "Intermittent rainfall",
+      "cloud_or_fog_condition": "Cloudy",
+      "source_favourable_weather_text": "Temperature 28–30°C, relative humidity above 90%, intermittent rainfall and cloudy weather."
+    },
+    "content": "BAMIS lists Foot rot as a disease risk for Rice. The reported infestation stage is Seedling to tillering. The source describes favourable weather as: Temperature 28–30°C, relative humidity above 90%, intermittent rainfall and cloudy weather.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0017",
+    "crop": "Rice",
+    "risk_name": "Sheath blight",
+    "risk_type": "Disease",
+    "growth_stage": "Maximum tillering to dough",
+    "weather_conditions": {
+      "temperature_min_c": 28,
+      "temperature_max_c": 32,
+      "cloud_or_fog_condition": "Cloudy with high relative humidity",
+      "source_favourable_weather_text": "Temperature 28–32°C, high relative humidity and cloudy weather."
+    },
+    "content": "BAMIS lists Sheath blight as a disease risk for Rice. The reported infestation stage is Maximum tillering to dough. The source describes favourable weather as: Temperature 28–32°C, high relative humidity and cloudy weather.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0018",
+    "crop": "Rice",
+    "risk_name": "Sheath rot",
+    "risk_type": "Disease",
+    "growth_stage": "Booting",
+    "weather_conditions": {
+      "temperature_min_c": 25,
+      "temperature_max_c": 28,
+      "relative_humidity_min_percent": 90,
+      "cloud_or_fog_condition": "Cloudy",
+      "source_favourable_weather_text": "Temperature 25–28°C, cloudy weather and relative humidity above 90%."
+    },
+    "content": "BAMIS lists Sheath rot as a disease risk for Rice. The reported infestation stage is Booting. The source describes favourable weather as: Temperature 25–28°C, cloudy weather and relative humidity above 90%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0019",
+    "crop": "Rice",
+    "risk_name": "False smut",
+    "risk_type": "Disease",
+    "growth_stage": "Soft dough to ripening",
+    "weather_conditions": {
+      "temperature_min_c": 22,
+      "temperature_max_c": 27,
+      "source_favourable_weather_text": "Temperature 22–27°C."
+    },
+    "content": "BAMIS lists False smut as a disease risk for Rice. The reported infestation stage is Soft dough to ripening. The source describes favourable weather as: Temperature 22–27°C.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0020",
+    "crop": "Rice",
+    "risk_name": "Rice hispa",
+    "risk_type": "Pest",
+    "growth_stage": "Seedling to flowering",
+    "weather_conditions": {
+      "temperature_min_c": 24,
+      "temperature_max_c": 35,
+      "relative_humidity_min_percent": 75,
+      "relative_humidity_max_percent": 99,
+      "source_favourable_weather_text": "Maximum temperature 32–35°C, minimum 24–26°C; maximum RH 96–99% and minimum RH 75–81%."
+    },
+    "content": "BAMIS lists Rice hispa as a pest risk for Rice. The reported infestation stage is Seedling to flowering. The source describes favourable weather as: Maximum temperature 32–35°C, minimum 24–26°C; maximum RH 96–99% and minimum RH 75–81%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0021",
+    "crop": "Rice",
+    "risk_name": "Rice caseworm",
+    "risk_type": "Pest",
+    "growth_stage": "Early to maximum tillering",
+    "weather_conditions": {
+      "relative_humidity_min_percent": 90,
+      "cloud_or_fog_condition": "Cloudy",
+      "source_favourable_weather_text": "Relative humidity above 90% and cloudy weather."
+    },
+    "content": "BAMIS lists Rice caseworm as a pest risk for Rice. The reported infestation stage is Early to maximum tillering. The source describes favourable weather as: Relative humidity above 90% and cloudy weather.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0022",
+    "crop": "Rice",
+    "risk_name": "Brown planthopper",
+    "risk_type": "Pest",
+    "growth_stage": "Maximum tillering to dough",
+    "weather_conditions": {
+      "temperature_min_c": 32,
+      "relative_humidity_min_percent": 80,
+      "relative_humidity_max_percent": 90,
+      "rainfall_condition": "Drizzle with rainfall less than 75 mm",
+      "source_favourable_weather_text": "Maximum temperature above 32°C, relative humidity 80–90%, and drizzle with rainfall below 75 mm."
+    },
+    "content": "BAMIS lists Brown planthopper as a pest risk for Rice. The reported infestation stage is Maximum tillering to dough. The source describes favourable weather as: Maximum temperature above 32°C, relative humidity 80–90%, and drizzle with rainfall below 75 mm.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0023",
+    "crop": "Rice",
+    "risk_name": "Yellow stem borer",
+    "risk_type": "Pest",
+    "growth_stage": "Early tillering to flowering",
+    "weather_conditions": {
+      "temperature_min_c": 20.3,
+      "temperature_max_c": 34.7,
+      "relative_humidity_min_percent": 38.7,
+      "source_favourable_weather_text": "Minimum temperature above 20.3°C, maximum 29.5–34.7°C, optimum 24–29°C, morning RH above 84%, afternoon RH above 38.7%, and dry weather."
+    },
+    "content": "BAMIS lists Yellow stem borer as a pest risk for Rice. The reported infestation stage is Early tillering to flowering. The source describes favourable weather as: Minimum temperature above 20.3°C, maximum 29.5–34.7°C, optimum 24–29°C, morning RH above 84%, afternoon RH above 38.7%, and dry weather.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0024",
+    "crop": "Rice",
+    "risk_name": "Leaf folder",
+    "risk_type": "Pest",
+    "growth_stage": "Mid tillering to dough",
+    "weather_conditions": {
+      "temperature_min_c": 21.6,
+      "temperature_max_c": 31.9,
+      "relative_humidity_min_percent": 90,
+      "cloud_or_fog_condition": "Cloudy",
+      "source_favourable_weather_text": "Maximum temperature above 31.9°C, minimum below 21.6°C, relative humidity 90%, cloudy weather."
+    },
+    "content": "BAMIS lists Leaf folder as a pest risk for Rice. The reported infestation stage is Mid tillering to dough. The source describes favourable weather as: Maximum temperature above 31.9°C, minimum below 21.6°C, relative humidity 90%, cloudy weather.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0025",
+    "crop": "Rice",
+    "risk_name": "Rice bug",
+    "risk_type": "Pest",
+    "growth_stage": "Flowering to milking",
+    "weather_conditions": {
+      "temperature_min_c": 22.1,
+      "temperature_max_c": 31.9,
+      "relative_humidity_min_percent": 66.4,
+      "rainfall_condition": "Weekly rainfall below 40.9 mm",
+      "sunshine_condition": "Bright sunshine above 5.9 hours",
+      "source_favourable_weather_text": "Maximum temperature above 31.9°C, minimum below 22.1°C, morning RH above 93.9%, afternoon RH below 66.4%, weekly rainfall below 40.9 mm and bright sunshine above 5.9 hours."
+    },
+    "content": "BAMIS lists Rice bug as a pest risk for Rice. The reported infestation stage is Flowering to milking. The source describes favourable weather as: Maximum temperature above 31.9°C, minimum below 22.1°C, morning RH above 93.9%, afternoon RH below 66.4%, weekly rainfall below 40.9 mm and bright sunshine above 5.9 hours.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Rice",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/76/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0026",
+    "crop": "Mustard",
+    "risk_name": "Stem rot",
+    "risk_type": "Disease",
+    "growth_stage": "Vegetative to pod initiation",
+    "weather_conditions": {
+      "temperature_min_c": 27,
+      "temperature_max_c": 35,
+      "soil_condition": "Humid condition and soil pH below 7",
+      "source_favourable_weather_text": "Temperature 27–35°C with humid conditions and low pH below 7."
+    },
+    "content": "BAMIS lists Stem rot as a disease risk for Mustard. The reported infestation stage is Vegetative to pod initiation. The source describes favourable weather as: Temperature 27–35°C with humid conditions and low pH below 7.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Mustard",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/44/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0027",
+    "crop": "Mustard",
+    "risk_name": "Alternaria leaf blight",
+    "risk_type": "Disease",
+    "growth_stage": "Vegetative to pod initiation",
+    "weather_conditions": {
+      "temperature_min_c": 25,
+      "temperature_max_c": 28,
+      "cloud_or_fog_condition": "Heavy dew",
+      "source_favourable_weather_text": "Temperature 25–28°C with heavy dew."
+    },
+    "content": "BAMIS lists Alternaria leaf blight as a disease risk for Mustard. The reported infestation stage is Vegetative to pod initiation. The source describes favourable weather as: Temperature 25–28°C with heavy dew.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Mustard",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/44/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0028",
+    "crop": "Green gram",
+    "risk_name": "Aphid",
+    "risk_type": "Pest",
+    "growth_stage": "Vegetative to pod initiation",
+    "weather_conditions": {
+      "temperature_min_c": 18,
+      "temperature_max_c": 25,
+      "relative_humidity_min_percent": 60,
+      "relative_humidity_max_percent": 70,
+      "source_favourable_weather_text": "Temperature 18–25°C and relative humidity 60–70%."
+    },
+    "content": "BAMIS lists Aphid as a pest risk for Green gram. The reported infestation stage is Vegetative to pod initiation. The source describes favourable weather as: Temperature 18–25°C and relative humidity 60–70%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Green Gram",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/57/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0029",
+    "crop": "Green gram",
+    "risk_name": "Thrips",
+    "risk_type": "Pest",
+    "growth_stage": "Vegetative to flowering",
+    "weather_conditions": {
+      "temperature_min_c": 16,
+      "temperature_max_c": 28,
+      "rainfall_condition": "Rainfall 30 mm; dry and moderately high temperature",
+      "source_favourable_weather_text": "Dry and moderately high temperature 16–28°C with rainfall 30 mm."
+    },
+    "content": "BAMIS lists Thrips as a pest risk for Green gram. The reported infestation stage is Vegetative to flowering. The source describes favourable weather as: Dry and moderately high temperature 16–28°C with rainfall 30 mm.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Green Gram",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/57/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0030",
+    "crop": "Green gram",
+    "risk_name": "Pod borer",
+    "risk_type": "Pest",
+    "growth_stage": "Flowering to pod initiation",
+    "weather_conditions": {
+      "temperature_min_c": 16,
+      "temperature_max_c": 30,
+      "relative_humidity_min_percent": 50,
+      "relative_humidity_max_percent": 85,
+      "sunshine_condition": "6.4 hours",
+      "source_favourable_weather_text": "Temperature 16–30°C, relative humidity 50–85%, sunshine 6.4 hours."
+    },
+    "content": "BAMIS lists Pod borer as a pest risk for Green gram. The reported infestation stage is Flowering to pod initiation. The source describes favourable weather as: Temperature 16–30°C, relative humidity 50–85%, sunshine 6.4 hours.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Green Gram",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/57/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0031",
+    "crop": "Lentil",
+    "risk_name": "Stemphylium blight",
+    "risk_type": "Disease",
+    "growth_stage": "Vegetative to pod initiation",
+    "weather_conditions": {
+      "temperature_min_c": 11,
+      "temperature_max_c": 25,
+      "relative_humidity_min_percent": 40,
+      "relative_humidity_max_percent": 96,
+      "cloud_or_fog_condition": "Cloudy or foggy",
+      "soil_condition": "Soil temperature above 32°C and soil moisture 2.5–18.8%",
+      "source_favourable_weather_text": "Temperature 11–25°C; day 20–22°C; night 4–5°C; maximum RH 90–96%, minimum RH 40–48%; cloudy or foggy weather."
+    },
+    "content": "BAMIS lists Stemphylium blight as a disease risk for Lentil. The reported infestation stage is Vegetative to pod initiation. The source describes favourable weather as: Temperature 11–25°C; day 20–22°C; night 4–5°C; maximum RH 90–96%, minimum RH 40–48%; cloudy or foggy weather.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Lentil",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/58/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0032",
+    "crop": "Lentil",
+    "risk_name": "Rust",
+    "risk_type": "Disease",
+    "growth_stage": "Flowering to pod initiation",
+    "weather_conditions": {
+      "temperature_min_c": 20,
+      "temperature_max_c": 22,
+      "relative_humidity_min_percent": 85,
+      "relative_humidity_max_percent": 90,
+      "source_favourable_weather_text": "Relative humidity 85–90% and temperature 20–22°C."
+    },
+    "content": "BAMIS lists Rust as a disease risk for Lentil. The reported infestation stage is Flowering to pod initiation. The source describes favourable weather as: Relative humidity 85–90% and temperature 20–22°C.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Lentil",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/58/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0033",
+    "crop": "Lentil",
+    "risk_name": "Foot rot",
+    "risk_type": "Disease",
+    "growth_stage": "Germination to vegetative",
+    "weather_conditions": {
+      "temperature_min_c": 20,
+      "temperature_max_c": 27,
+      "source_favourable_weather_text": "Temperature 20–27°C."
+    },
+    "content": "BAMIS lists Foot rot as a disease risk for Lentil. The reported infestation stage is Germination to vegetative. The source describes favourable weather as: Temperature 20–27°C.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Lentil",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/58/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0034",
+    "crop": "Lentil",
+    "risk_name": "Fusarium wilt",
+    "risk_type": "Disease",
+    "growth_stage": "Germination to pod initiation",
+    "weather_conditions": {
+      "temperature_min_c": 25,
+      "temperature_max_c": 25,
+      "source_favourable_weather_text": "Hot and dry weather with optimum temperature around 25°C."
+    },
+    "content": "BAMIS lists Fusarium wilt as a disease risk for Lentil. The reported infestation stage is Germination to pod initiation. The source describes favourable weather as: Hot and dry weather with optimum temperature around 25°C.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Diseases Information - Lentil",
+      "url": "https://www.bamis.gov.bd/en/diseases/1/all/58/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0035",
+    "crop": "Wheat",
+    "risk_name": "Aphid",
+    "risk_type": "Pest",
+    "growth_stage": "Vegetative to reproductive",
+    "weather_conditions": {
+      "temperature_min_c": 18.7,
+      "temperature_max_c": 29.1,
+      "relative_humidity_min_percent": 55,
+      "relative_humidity_max_percent": 71,
+      "source_favourable_weather_text": "Mean temperature 18.7°C and RH 71%; a weekly mean case of 29.1°C and RH 55% is also reported."
+    },
+    "content": "BAMIS lists Aphid as a pest risk for Wheat. The reported infestation stage is Vegetative to reproductive. The source describes favourable weather as: Mean temperature 18.7°C and RH 71%; a weekly mean case of 29.1°C and RH 55% is also reported.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Wheat",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/9/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0036",
+    "crop": "Wheat",
+    "risk_name": "Stem borer",
+    "risk_type": "Pest",
+    "growth_stage": "Vegetative stage",
+    "weather_conditions": {
+      "temperature_min_c": 22.2,
+      "temperature_max_c": 33.9,
+      "relative_humidity_min_percent": 80,
+      "rainfall_condition": "Rainfall",
+      "source_favourable_weather_text": "Maximum 31.9–33.9°C, minimum 22.2–26.3°C, average 26.9–29.5°C, average RH 80%, with rainfall."
+    },
+    "content": "BAMIS lists Stem borer as a pest risk for Wheat. The reported infestation stage is Vegetative stage. The source describes favourable weather as: Maximum 31.9–33.9°C, minimum 22.2–26.3°C, average 26.9–29.5°C, average RH 80%, with rainfall.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Wheat",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/9/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0037",
+    "crop": "Groundnut",
+    "risk_name": "Thrips",
+    "risk_type": "Pest",
+    "growth_stage": "Vegetative to flowering",
+    "weather_conditions": {
+      "temperature_min_c": 16,
+      "temperature_max_c": 28,
+      "rainfall_condition": "Rainfall 30 mm; dry moderately high temperature",
+      "source_favourable_weather_text": "Dry and moderately high temperature 16–28°C with rainfall 30 mm."
+    },
+    "content": "BAMIS lists Thrips as a pest risk for Groundnut. The reported infestation stage is Vegetative to flowering. The source describes favourable weather as: Dry and moderately high temperature 16–28°C with rainfall 30 mm.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Groundnut",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/34/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0038",
+    "crop": "Groundnut",
+    "risk_name": "Jassid",
+    "risk_type": "Pest",
+    "growth_stage": "Vegetative to flowering",
+    "weather_conditions": {
+      "temperature_min_c": 30,
+      "temperature_max_c": 38,
+      "source_favourable_weather_text": "Dry and hot weather 30–38°C."
+    },
+    "content": "BAMIS lists Jassid as a pest risk for Groundnut. The reported infestation stage is Vegetative to flowering. The source describes favourable weather as: Dry and hot weather 30–38°C.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Groundnut",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/34/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0039",
+    "crop": "Groundnut",
+    "risk_name": "Termite",
+    "risk_type": "Pest",
+    "growth_stage": "Vegetative to maturity",
+    "weather_conditions": {
+      "temperature_min_c": 24,
+      "temperature_max_c": 34,
+      "soil_condition": "Sandy to sandy-loam soil",
+      "source_favourable_weather_text": "Temperature 24–34°C and sandy to sandy-loam soil."
+    },
+    "content": "BAMIS lists Termite as a pest risk for Groundnut. The reported infestation stage is Vegetative to maturity. The source describes favourable weather as: Temperature 24–34°C and sandy to sandy-loam soil.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Groundnut",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/34/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0040",
+    "crop": "Sugarcane",
+    "risk_name": "Stem borer",
+    "risk_type": "Pest",
+    "growth_stage": "Tillering to grand growth",
+    "weather_conditions": {
+      "temperature_min_c": 30,
+      "temperature_max_c": 35,
+      "relative_humidity_min_percent": 46,
+      "relative_humidity_max_percent": 76,
+      "source_favourable_weather_text": "Temperature 30–35°C and relative humidity 46–76%."
+    },
+    "content": "BAMIS lists Stem borer as a pest risk for Sugarcane. The reported infestation stage is Tillering to grand growth. The source describes favourable weather as: Temperature 30–35°C and relative humidity 46–76%.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Sugarcane",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/12/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0041",
+    "crop": "Sugarcane",
+    "risk_name": "Top shoot borer",
+    "risk_type": "Pest",
+    "growth_stage": "Tillering",
+    "weather_conditions": {
+      "temperature_max_c": 37.8,
+      "relative_humidity_min_percent": 60,
+      "relative_humidity_max_percent": 80,
+      "sunshine_condition": "9.1 hours",
+      "source_favourable_weather_text": "Temperature below 37.8°C, relative humidity 60–80%, sunshine 9.1 hours."
+    },
+    "content": "BAMIS lists Top shoot borer as a pest risk for Sugarcane. The reported infestation stage is Tillering. The source describes favourable weather as: Temperature below 37.8°C, relative humidity 60–80%, sunshine 9.1 hours.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Sugarcane",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/12/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "risk_0042",
+    "crop": "Sugarcane",
+    "risk_name": "Termite",
+    "risk_type": "Pest",
+    "growth_stage": "Germination to harvest",
+    "weather_conditions": {
+      "temperature_min_c": 24,
+      "temperature_max_c": 35,
+      "soil_condition": "Sandy to sandy-loam soil",
+      "source_favourable_weather_text": "Temperature 24–35°C and sandy to sandy-loam soil."
+    },
+    "content": "BAMIS lists Termite as a pest risk for Sugarcane. The reported infestation stage is Germination to harvest. The source describes favourable weather as: Temperature 24–35°C and sandy to sandy-loam soil.. Use this record to raise a scouting alert, not to confirm infestation. Treatment data require current registration and label verification.",
+    "main_source": {
+      "institution": "Bangladesh Agro-Meteorological Information Service (BAMIS), DAE",
+      "title": "Pests Information - Sugarcane",
+      "url": "https://www.bamis.gov.bd/en/pests/1/all/12/",
+      "locator": "Pest/Disease information > favourable weather and infestation stage",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_official_BAMIS_page",
+    "verified_on": "2026-07-24"
+  }
+]

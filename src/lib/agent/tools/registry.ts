@@ -8,6 +8,15 @@ import { getCropCalendar, type CropCalendarResult } from './calendar';
 import { ragSearch, formatRetrievedContext, KB_STATS, type RetrievalResult } from '@/lib/kb/rag';
 import { VERIFIED_FACTS } from '@/lib/kb/verified_facts';
 
+import {
+  getFertilizerSchedule,
+  getIrrigationSchedule,
+  assessPestDiseaseRisk,
+  checkWeatherTriggers,
+  simulateScenario,
+} from './tier1_tools';
+import { compareSuppliers, compareSuppliersForPlan, getMarketPriceIntelligence } from './tier2_tools';
+
 export type ToolName =
   | 'get_weather'
   | 'rag_search'
@@ -15,12 +24,19 @@ export type ToolName =
   | 'recommend_crops'
   | 'compute_financials'
   | 'get_crop_calendar'
-  | 'save_profile';
+  | 'save_profile'
+  | 'get_fertilizer_schedule'
+  | 'get_irrigation_schedule'
+  | 'assess_pest_disease_risk'
+  | 'check_weather_triggers'
+  | 'simulate_scenario'
+  | 'compare_suppliers'
+  | 'get_market_price_intelligence';
 
 export interface ToolDefinition {
   name: ToolName;
   description: string;
-  paramSchema: { name: string; type: 'string' | 'number'; required: boolean; description: string }[];
+  paramSchema: { name: string; type: 'string' | 'number' | 'boolean'; required: boolean; description: string }[];
 }
 
 export const TOOL_DEFINITIONS: ToolDefinition[] = [
@@ -77,6 +93,86 @@ export const TOOL_DEFINITIONS: ToolDefinition[] = [
     description: 'Save or update farmer profile fields (location, soilType, waterSource, budgetBdt, targetSeason, farmSizeDecimal, chosenCrop, sowingDate). Use this whenever the farmer provides new profile information so it persists across turns.',
     paramSchema: [
       { name: 'updates', type: 'string', required: true, description: 'JSON object with any subset of the profile fields to update' },
+    ],
+  },
+  {
+    name: 'get_fertilizer_schedule',
+    description: 'Retrieve verified growth-stage specific fertilizer application schedule, doses (Urea, TSP, MoP, Gypsum, etc.), organic alternatives, and costs for a crop and soil type from BARI/BRRI records.',
+    paramSchema: [
+      { name: 'crop', type: 'string', required: true, description: 'Crop name, e.g. "Potato", "Tomato", "T. Aman Rice", "Maize", "Wheat"' },
+      { name: 'soilType', type: 'string', required: false, description: 'Soil type, e.g. "sandy", "loamy", "clay"' },
+      { name: 'farmSizeDecimal', type: 'number', required: false, description: 'Farm size in decimal' },
+    ],
+  },
+  {
+    name: 'get_irrigation_schedule',
+    description: 'Retrieve growth-stage specific irrigation requirements, intervals, ETc values, and critical water deficit warnings for a crop.',
+    paramSchema: [
+      { name: 'crop', type: 'string', required: true, description: 'Crop name' },
+      { name: 'soilType', type: 'string', required: false, description: 'Soil type' },
+      { name: 'farmSizeDecimal', type: 'number', required: false, description: 'Farm size in decimal' },
+    ],
+  },
+  {
+    name: 'assess_pest_disease_risk',
+    description: 'Assess BAMIS weather-grounded pest and disease scouting risks for a crop based on growth stage and actual weather parameters. Pass temperature, humidity and rainfall from get_weather; missing inputs are reported rather than guessed.',
+    paramSchema: [
+      { name: 'crop', type: 'string', required: true, description: 'Crop name' },
+      { name: 'growthStage', type: 'string', required: false, description: 'Growth stage, e.g. "Vegetative stage", "Flowering stage"' },
+      { name: 'temperatureC', type: 'number', required: false, description: 'Current or forecast temperature in Celsius' },
+      { name: 'humidityPercent', type: 'number', required: false, description: 'Current or forecast relative humidity percentage' },
+      { name: 'rainfallMm', type: 'number', required: false, description: 'Actual forecast rainfall in millimetres from get_weather' },
+      { name: 'farmSizeDecimal', type: 'number', required: false, description: 'Farm size in decimal, used to scale the pest/IPM planning allowance' },
+    ],
+  },
+  {
+    name: 'check_weather_triggers',
+    description: 'Evaluate 7-day weather forecast against proactive trigger rules to recommend crop schedule adjustments (e.g. delay nitrogen fertilizer due to heavy rain).',
+    paramSchema: [
+      { name: 'crop', type: 'string', required: true, description: 'Crop name' },
+      { name: 'growthStage', type: 'string', required: false, description: 'Growth stage' },
+      { name: 'weatherForecast', type: 'string', required: false, description: 'JSON string of 7-day weather forecast' },
+    ],
+  },
+  {
+    name: 'simulate_scenario',
+    description: 'Run a "what if" deterministic scenario simulation (e.g. budget cut %, rainfall drop %, selling price drop %, sowing delay days) and get recalculated cost, revenue, profit, ROI, and break-even math.',
+    paramSchema: [
+      { name: 'cropId', type: 'string', required: true, description: 'Crop ID e.g. "potato", "rice-boro", "wheat"' },
+      { name: 'farmSizeDecimal', type: 'number', required: true, description: 'Farm size in decimal' },
+      { name: 'scenarioType', type: 'string', required: true, description: 'Scenario type: "budget_cut_percent", "rainfall_change_percent", "selling_price_change_percent", "input_price_change_percent", or "sowing_delay_days"' },
+      { name: 'changeValue', type: 'number', required: true, description: 'Numeric change value: use 30 for a 30% budget cut, -30 for a 30% rainfall/price drop, or 10 for a 10-day delay' },
+      { name: 'sowingDate', type: 'string', required: false, description: 'ISO sowing date e.g. "2025-11-20"' },
+    ],
+  },
+  {
+    name: 'compare_suppliers',
+    description: 'Tier 2 marketplace tool. Match a JSON list of farm input needs to the seeded mock supplier catalog, calculate packages and delivered cost, enforce stock, and rank by the published weights for price, official market-distance proxy, delivery time, rating, and stock. All commercial data is explicitly labeled MOCK.',
+    paramSchema: [
+      { name: 'needs', type: 'string', required: false, description: 'Optional JSON array such as [{"productName":"Urea","quantity":55,"unit":"kg"}]. Prefer cropId + farmSizeDecimal for an existing plan so quantities are derived without LLM arithmetic.' },
+      { name: 'cropId', type: 'string', required: false, description: 'Existing structured crop ID, e.g. maize or potato. Supply with farmSizeDecimal to derive plan needs.' },
+      { name: 'farmSizeDecimal', type: 'number', required: false, description: 'Farm size used with cropId to derive total input quantities.' },
+      { name: 'farmerLocation', type: 'string', required: false, description: 'Farmer location from the persisted profile. The catalog distance remains a market-to-district-HQ proxy, not route distance.' },
+      { name: 'limit', type: 'number', required: false, description: 'Maximum ranked suppliers per input, default 5.' },
+    ],
+  },
+  {
+    name: 'get_market_price_intelligence',
+    description: 'Tier 2 market intelligence tool. Fetch the live official DAM headline ticker, discover an official historical monthly commodity series, and apply deterministic sell-now/store-or-wait/monitor rules. It refuses decision math when unit, market, price type, current price, or future-price assumptions are unresolved.',
+    paramSchema: [
+      { name: 'commodity', type: 'string', required: true, description: 'Specific DAM commodity/grade when known, e.g. "Aman-Fine", "Potato", "Tomato", "Mung". A broad crop may return clarification candidates.' },
+      { name: 'priceType', type: 'string', required: false, description: 'Growers, Retail, or Wholesale. Use Growers for farm selling unless the farmer specifies otherwise.' },
+      { name: 'historicalYear', type: 'number', required: false, description: 'Preferred historical year; the tool checks up to three earlier years when empty.' },
+      { name: 'verifiedCurrentPricePerUnit', type: 'number', required: false, description: 'Current price only when its unit, market, and price type are confirmed.' },
+      { name: 'currentUnit', type: 'string', required: false, description: 'Confirmed current-price unit, e.g. kg, maund, or quintal.' },
+      { name: 'market', type: 'string', required: false, description: 'Specific current market matching the price.' },
+      { name: 'expectedFuturePricePerUnit', type: 'number', required: false, description: 'Explicit non-guaranteed future-price assumption in the same unit.' },
+      { name: 'immediateTransportCostPerUnit', type: 'number', required: false, description: 'Transport cost per unit if sold now.' },
+      { name: 'storageCostPerUnit', type: 'number', required: false, description: 'Storage cost per unit for the waiting period.' },
+      { name: 'spoilageLossPercent', type: 'number', required: false, description: 'Expected percentage value loss during storage.' },
+      { name: 'financingCostPerUnit', type: 'number', required: false, description: 'Financing/opportunity cost per unit while waiting.' },
+      { name: 'laterTransportCostPerUnit', type: 'number', required: false, description: 'Transport cost per unit when sold later.' },
+      { name: 'storageFeasible', type: 'boolean', required: false, description: 'Whether safe storage is actually available for this crop and duration.' },
     ],
   },
 ];
@@ -175,7 +271,86 @@ export async function executeTool(name: ToolName, args: Record<string, any>): Pr
       }
       case 'save_profile': {
         const updates = typeof args.updates === 'string' ? JSON.parse(args.updates) : args.updates;
+        if (!updates || typeof updates !== 'object' || Array.isArray(updates)) {
+          throw new Error('updates must be a JSON object');
+        }
+        const allowed = new Set(['name', 'location', 'latitude', 'longitude', 'farmSizeDecimal', 'soilType', 'waterSource', 'budgetBdt', 'targetSeason', 'chosenCrop', 'sowingDate']);
+        const unknown = Object.keys(updates).filter(key => !allowed.has(key));
+        if (unknown.length) throw new Error(`Unsupported profile field(s): ${unknown.join(', ')}`);
+        for (const key of ['farmSizeDecimal', 'budgetBdt']) {
+          if (updates[key] !== undefined && (!Number.isFinite(Number(updates[key])) || Number(updates[key]) <= 0)) {
+            throw new Error(`${key} must be a positive number`);
+          }
+        }
+        if (updates.soilType && !['sandy', 'loamy', 'clay', 'saline', 'silty'].includes(updates.soilType)) {
+          throw new Error('soilType must be sandy, loamy, clay, saline, or silty');
+        }
+        if (updates.waterSource && !['tubewell', 'canal', 'rainfed', 'river', 'pond'].includes(updates.waterSource)) {
+          throw new Error('waterSource must be tubewell, canal, rainfed, river, or pond');
+        }
+        if (updates.targetSeason && !['aus', 'aman', 'boro', 'rabi', 'kharif-1', 'kharif-2'].includes(updates.targetSeason)) {
+          throw new Error('targetSeason is not supported');
+        }
         result = { saved: true, fields: Object.keys(updates), updates };
+        break;
+      }
+      case 'get_fertilizer_schedule': {
+        result = getFertilizerSchedule(args.crop, args.soilType, Number(args.farmSizeDecimal || 100));
+        break;
+      }
+      case 'get_irrigation_schedule': {
+        result = getIrrigationSchedule(args.crop, args.soilType, Number(args.farmSizeDecimal || 100));
+        break;
+      }
+      case 'assess_pest_disease_risk': {
+        result = assessPestDiseaseRisk(
+          args.crop,
+          args.growthStage,
+          args.temperatureC ? Number(args.temperatureC) : undefined,
+          args.humidityPercent ? Number(args.humidityPercent) : undefined,
+          args.rainfallMm ? Number(args.rainfallMm) : undefined,
+          Number(args.farmSizeDecimal || 100),
+        );
+        break;
+      }
+      case 'check_weather_triggers': {
+        const wf = args.weatherForecast ? (typeof args.weatherForecast === 'string' ? JSON.parse(args.weatherForecast) : args.weatherForecast) : null;
+        result = checkWeatherTriggers(args.crop, args.growthStage, wf);
+        break;
+      }
+      case 'simulate_scenario': {
+        result = simulateScenario({
+          cropId: args.cropId,
+          farmSizeDecimal: Number(args.farmSizeDecimal || 100),
+          scenarioType: args.scenarioType,
+          changeValue: Number(args.changeValue),
+          sowingDate: args.sowingDate,
+        });
+        break;
+      }
+      case 'compare_suppliers': {
+        result = args.needs
+          ? compareSuppliers(args.needs, args.farmerLocation, Number(args.limit || 5))
+          : compareSuppliersForPlan(args.cropId, Number(args.farmSizeDecimal), args.farmerLocation, Number(args.limit || 5));
+        break;
+      }
+      case 'get_market_price_intelligence': {
+        const priceType = ['Growers', 'Retail', 'Wholesale'].includes(args.priceType) ? args.priceType : 'Growers';
+        result = await getMarketPriceIntelligence({
+          commodity: args.commodity,
+          priceType,
+          historicalYear: args.historicalYear === undefined ? undefined : Number(args.historicalYear),
+          verifiedCurrentPricePerUnit: args.verifiedCurrentPricePerUnit === undefined ? undefined : Number(args.verifiedCurrentPricePerUnit),
+          currentUnit: args.currentUnit,
+          market: args.market,
+          expectedFuturePricePerUnit: args.expectedFuturePricePerUnit === undefined ? undefined : Number(args.expectedFuturePricePerUnit),
+          immediateTransportCostPerUnit: args.immediateTransportCostPerUnit === undefined ? undefined : Number(args.immediateTransportCostPerUnit),
+          storageCostPerUnit: args.storageCostPerUnit === undefined ? undefined : Number(args.storageCostPerUnit),
+          spoilageLossPercent: args.spoilageLossPercent === undefined ? undefined : Number(args.spoilageLossPercent),
+          financingCostPerUnit: args.financingCostPerUnit === undefined ? undefined : Number(args.financingCostPerUnit),
+          laterTransportCostPerUnit: args.laterTransportCostPerUnit === undefined ? undefined : Number(args.laterTransportCostPerUnit),
+          storageFeasible: typeof args.storageFeasible === 'boolean' ? args.storageFeasible : undefined,
+        });
         break;
       }
       default:

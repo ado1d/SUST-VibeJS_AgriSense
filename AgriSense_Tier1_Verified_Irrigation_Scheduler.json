@@ -1,0 +1,1503 @@
+[
+  {
+    "id": "irr_0001",
+    "crop": "Processing Potato",
+    "category": "Irrigation",
+    "parameter": "Seasonal water requirement range",
+    "value": "160-180",
+    "unit": "mm/season",
+    "value_type": "fact",
+    "content": "For Processing Potato, the verified source reports Seasonal water requirement range as 160-180 mm/season. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation technology for processing potato production from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "Irrigation technology for processing potato production",
+      "url": "https://m.baritechnology.org/crops/tech_detail/219",
+      "locator": "প্রযুক্তির বিবরণ",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0002",
+    "crop": "Processing Potato",
+    "category": "Irrigation",
+    "parameter": "Critical irrigation stage 1",
+    "value": "Stolon stage",
+    "value_type": "fact",
+    "content": "For Processing Potato, the verified source reports Critical irrigation stage 1 as Stolon stage. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation technology for processing potato production from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "Irrigation technology for processing potato production",
+      "url": "https://m.baritechnology.org/crops/tech_detail/219",
+      "locator": "প্রযুক্তির বিবরণ",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0003",
+    "crop": "Processing Potato",
+    "category": "Irrigation",
+    "parameter": "Critical irrigation stage 2",
+    "value": "Tuber bulking stage",
+    "value_type": "fact",
+    "content": "For Processing Potato, the verified source reports Critical irrigation stage 2 as Tuber bulking stage. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation technology for processing potato production from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "Irrigation technology for processing potato production",
+      "url": "https://m.baritechnology.org/crops/tech_detail/219",
+      "locator": "প্রযুক্তির বিবরণ",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0004",
+    "crop": "BARI Alu-25",
+    "category": "Water productivity",
+    "parameter": "Reported water productivity range",
+    "value": "22-27",
+    "unit": "kg/m3",
+    "value_type": "fact",
+    "content": "For BARI Alu-25, the verified source reports Reported water productivity range as 22-27 kg/m3. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation technology for processing potato production from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "Irrigation technology for processing potato production",
+      "url": "https://m.baritechnology.org/crops/tech_detail/219",
+      "locator": "প্রযুক্তির বিবরণ",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0005",
+    "crop": "BARI Alu-28",
+    "category": "Irrigation",
+    "parameter": "Reported water-use range",
+    "value": "150-190",
+    "unit": "mm",
+    "value_type": "fact",
+    "content": "For BARI Alu-28, the verified source reports Reported water-use range as 150-190 mm. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation technology for processing potato production from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "Irrigation technology for processing potato production",
+      "url": "https://m.baritechnology.org/crops/tech_detail/219",
+      "locator": "প্রযুক্তির বিবরণ",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0006",
+    "crop": "BARI Alu-28",
+    "category": "Water productivity",
+    "parameter": "Reported water productivity range",
+    "value": "19-26",
+    "unit": "kg/m3",
+    "value_type": "fact",
+    "content": "For BARI Alu-28, the verified source reports Reported water productivity range as 19-26 kg/m3. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation technology for processing potato production from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "Irrigation technology for processing potato production",
+      "url": "https://m.baritechnology.org/crops/tech_detail/219",
+      "locator": "প্রযুক্তির বিবরণ",
+      "medium": "Official institutional webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0007",
+    "crop": "Potato",
+    "category": "Irrigation",
+    "parameter": "First irrigation/scouting timing",
+    "value": "The source schedules weed control and irrigation at 20 days after planting.",
+    "value_type": "recommendation",
+    "content": "For Potato, the verified source reports First irrigation/scouting timing as The source schedules weed control and irrigation at 20 days after planting.. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Fertilizer recommendation for potato-maize-T. Aman cropping pattern in AEZ-1 from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "Fertilizer recommendation for potato-maize-T. Aman cropping pattern in AEZ-1",
+      "url": "https://m.baritechnology.org/crops/tech_detail/344",
+      "locator": "প্রযুক্তির বিবরণ > উৎপাদন প্রযুক্তি / সারের নাম / সার প্রয়োগ পদ্ধতি, আন্তঃপরিচর্যা ও ফলন",
+      "medium": "Official institutional webpage with tabular production data"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0008",
+    "crop": "All irrigated crops",
+    "category": "Irrigation methodology",
+    "parameter": "Irrigation water need formula",
+    "value": "Crop water need minus effective rainfall",
+    "value_type": "formula",
+    "content": "For All irrigated crops, the verified source reports Irrigation water need formula as Crop water need minus effective rainfall. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Needs from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Needs",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4: Irrigation Water Needs",
+      "medium": "Official technical manual webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0009",
+    "crop": "All irrigated crops",
+    "category": "Irrigation methodology",
+    "parameter": "Recommended calculation time step",
+    "value": "Usually calculated monthly in the cited manual",
+    "value_type": "fact",
+    "content": "For All irrigated crops, the verified source reports Recommended calculation time step as Usually calculated monthly in the cited manual. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Needs from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Needs",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4: Irrigation Water Needs",
+      "medium": "Official technical manual webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0010",
+    "crop": "All irrigated crops",
+    "category": "Irrigation methodology",
+    "parameter": "Water-need unit",
+    "value": "Millimetres of water per time unit",
+    "value_type": "fact",
+    "content": "For All irrigated crops, the verified source reports Water-need unit as Millimetres of water per time unit. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Needs from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Needs",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4: Irrigation Water Needs",
+      "medium": "Official technical manual webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0011",
+    "crop": "All crops",
+    "category": "Crop water requirement",
+    "parameter": "Primary determinant 1",
+    "value": "Climate",
+    "value_type": "fact",
+    "content": "For All crops, the verified source reports Primary determinant 1 as Climate. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Crop Water Needs from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Crop Water Needs",
+      "url": "https://www.fao.org/4/s2022e/s2022e05.htm",
+      "locator": "Part II, Chapter 1: Introduction",
+      "medium": "Official technical manual webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0012",
+    "crop": "All crops",
+    "category": "Crop water requirement",
+    "parameter": "Primary determinant 2",
+    "value": "Crop type",
+    "value_type": "fact",
+    "content": "For All crops, the verified source reports Primary determinant 2 as Crop type. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Crop Water Needs from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Crop Water Needs",
+      "url": "https://www.fao.org/4/s2022e/s2022e05.htm",
+      "locator": "Part II, Chapter 1: Introduction",
+      "medium": "Official technical manual webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0013",
+    "crop": "All crops",
+    "category": "Crop water requirement",
+    "parameter": "Primary determinant 3",
+    "value": "Crop growth stage",
+    "value_type": "fact",
+    "content": "For All crops, the verified source reports Primary determinant 3 as Crop growth stage. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Crop Water Needs from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Crop Water Needs",
+      "url": "https://www.fao.org/4/s2022e/s2022e05.htm",
+      "locator": "Part II, Chapter 1: Introduction",
+      "medium": "Official technical manual webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0014",
+    "crop": "All crops",
+    "category": "Water supply",
+    "parameter": "Possible water sources",
+    "value": "Rainfall, irrigation, or a combination of both",
+    "value_type": "fact",
+    "content": "For All crops, the verified source reports Possible water sources as Rainfall, irrigation, or a combination of both. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Crop Water Needs from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Crop Water Needs",
+      "url": "https://www.fao.org/4/s2022e/s2022e05.htm",
+      "locator": "Part II, Chapter 1: Introduction",
+      "medium": "Official technical manual webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0015",
+    "crop": "All non-rice irrigated crops",
+    "category": "Irrigation scheduling",
+    "parameter": "Early-season scheduling principle",
+    "value": "Young shallow-rooted crops generally receive smaller irrigation depths more frequently.",
+    "value_type": "fact",
+    "content": "For All non-rice irrigated crops, the verified source reports Early-season scheduling principle as Young shallow-rooted crops generally receive smaller irrigation depths more frequently.. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Determination of the Irrigation Schedule for Crops Other Than Rice from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Determination of the Irrigation Schedule for Crops Other Than Rice",
+      "url": "https://www.fao.org/4/T7202E/t7202e06.htm",
+      "locator": "Chapter 3, Sections 3.1-3.3",
+      "medium": "Official technical manual webpage with example table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0016",
+    "crop": "All non-rice irrigated crops",
+    "category": "Irrigation scheduling",
+    "parameter": "Mid-season scheduling principle",
+    "value": "At maximum root depth and higher evapotranspiration, irrigation depth generally increases and applications may be less frequent.",
+    "value_type": "fact",
+    "content": "For All non-rice irrigated crops, the verified source reports Mid-season scheduling principle as At maximum root depth and higher evapotranspiration, irrigation depth generally increases and applications may be less frequent.. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Determination of the Irrigation Schedule for Crops Other Than Rice from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Determination of the Irrigation Schedule for Crops Other Than Rice",
+      "url": "https://www.fao.org/4/T7202E/t7202e06.htm",
+      "locator": "Chapter 3, Sections 3.1-3.3",
+      "medium": "Official technical manual webpage with example table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0017",
+    "crop": "All non-rice irrigated crops",
+    "category": "Soil water",
+    "parameter": "Relative available-water content",
+    "value": "Sand: low; loam: medium; clay: high",
+    "value_type": "fact",
+    "content": "For All non-rice irrigated crops, the verified source reports Relative available-water content as Sand: low; loam: medium; clay: high. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Determination of the Irrigation Schedule for Crops Other Than Rice from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Determination of the Irrigation Schedule for Crops Other Than Rice",
+      "url": "https://www.fao.org/4/T7202E/t7202e06.htm",
+      "locator": "Chapter 3, Sections 3.1-3.3",
+      "medium": "Official technical manual webpage with example table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0018",
+    "crop": "All non-rice irrigated crops",
+    "category": "Irrigation scheduling",
+    "parameter": "Rainfall adjustment",
+    "value": "Daily rainfall measurement can be used to adjust the accumulated water deficit and irrigation timing.",
+    "value_type": "fact",
+    "content": "For All non-rice irrigated crops, the verified source reports Rainfall adjustment as Daily rainfall measurement can be used to adjust the accumulated water deficit and irrigation timing.. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Determination of the Irrigation Schedule for Crops Other Than Rice from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Determination of the Irrigation Schedule for Crops Other Than Rice",
+      "url": "https://www.fao.org/4/T7202E/t7202e06.htm",
+      "locator": "Chapter 3, Sections 3.1-3.3",
+      "medium": "Official technical manual webpage with example table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0019",
+    "crop": "Wheat in Bangladesh",
+    "category": "Crop coefficient",
+    "parameter": "Initial phase Kc",
+    "value": 0.4,
+    "unit": "dimensionless",
+    "value_type": "fact",
+    "context": "December",
+    "content": "For Wheat in Bangladesh, the verified source reports Initial phase Kc as 0.4 dimensionless. The stated context is December. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Requirement from FAO AQUASTAT.",
+    "main_source": {
+      "institution": "FAO AQUASTAT",
+      "title": "Irrigation Water Requirement",
+      "url": "https://www.fao.org/aquastat/en/data-analysis/irrig-water-use/irrig-water-requirement/",
+      "locator": "Crop water requirement",
+      "medium": "Official database methodology webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0020",
+    "crop": "Wheat in Bangladesh",
+    "category": "Crop coefficient",
+    "parameter": "Development phase Kc",
+    "value": 0.8,
+    "unit": "dimensionless",
+    "value_type": "fact",
+    "context": "January",
+    "content": "For Wheat in Bangladesh, the verified source reports Development phase Kc as 0.8 dimensionless. The stated context is January. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Requirement from FAO AQUASTAT.",
+    "main_source": {
+      "institution": "FAO AQUASTAT",
+      "title": "Irrigation Water Requirement",
+      "url": "https://www.fao.org/aquastat/en/data-analysis/irrig-water-use/irrig-water-requirement/",
+      "locator": "Crop water requirement",
+      "medium": "Official database methodology webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0021",
+    "crop": "Wheat in Bangladesh",
+    "category": "Crop coefficient",
+    "parameter": "Mid-season Kc",
+    "value": 1.15,
+    "unit": "dimensionless",
+    "value_type": "fact",
+    "context": "February-March",
+    "content": "For Wheat in Bangladesh, the verified source reports Mid-season Kc as 1.15 dimensionless. The stated context is February-March. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Requirement from FAO AQUASTAT.",
+    "main_source": {
+      "institution": "FAO AQUASTAT",
+      "title": "Irrigation Water Requirement",
+      "url": "https://www.fao.org/aquastat/en/data-analysis/irrig-water-use/irrig-water-requirement/",
+      "locator": "Crop water requirement",
+      "medium": "Official database methodology webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0022",
+    "crop": "Wheat in Bangladesh",
+    "category": "Crop coefficient",
+    "parameter": "Late-season Kc",
+    "value": 0.3,
+    "unit": "dimensionless",
+    "value_type": "fact",
+    "context": "April",
+    "content": "For Wheat in Bangladesh, the verified source reports Late-season Kc as 0.3 dimensionless. The stated context is April. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Requirement from FAO AQUASTAT.",
+    "main_source": {
+      "institution": "FAO AQUASTAT",
+      "title": "Irrigation Water Requirement",
+      "url": "https://www.fao.org/aquastat/en/data-analysis/irrig-water-use/irrig-water-requirement/",
+      "locator": "Crop water requirement",
+      "medium": "Official database methodology webpage"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0023",
+    "crop": "All non-rice crops",
+    "category": "Irrigation scheduling",
+    "parameter": "Methods described — full list",
+    "value": "Plant observation method; Estimation method; Simple calculation method",
+    "value_type": "list",
+    "content": "For All non-rice crops, the verified source reports Methods described — full list as Plant observation method; Estimation method; Simple calculation method. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0024",
+    "crop": "All crops",
+    "category": "Irrigation methodology",
+    "parameter": "Irrigation water need formula",
+    "value": "Irrigation water need = crop water need − effective rainfall",
+    "value_type": "text",
+    "content": "For All crops, the verified source reports Irrigation water need formula as Irrigation water need = crop water need − effective rainfall. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Water Needs, Chapter 4 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Water Needs, Chapter 4",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4 > Irrigation Water Needs > formula and tomato example",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0025",
+    "crop": "All non-rice crops",
+    "category": "Irrigation scheduling",
+    "parameter": "Methods described — item",
+    "value": "Plant observation method",
+    "value_type": "list_item",
+    "content": "For All non-rice crops, the verified source reports Methods described — item as Plant observation method. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0026",
+    "crop": "All crops",
+    "category": "Irrigation methodology",
+    "parameter": "Typical calculation interval",
+    "value": "Monthly",
+    "value_type": "text",
+    "content": "For All crops, the verified source reports Typical calculation interval as Monthly. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Water Needs, Chapter 4 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Water Needs, Chapter 4",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4 > Irrigation Water Needs > formula and tomato example",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0027",
+    "crop": "Wheat in Bangladesh",
+    "category": "Crop coefficient",
+    "parameter": "Initial",
+    "value": 0.4,
+    "unit": "Kc",
+    "value_type": "text",
+    "context": "December",
+    "content": "For Wheat in Bangladesh, the verified source reports Initial as 0.4 Kc. The stated context is December. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is AQUASTAT Irrigated Crop Calendars and Irrigation Water Requirement from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "AQUASTAT Irrigated Crop Calendars and Irrigation Water Requirement",
+      "url": "https://www.fao.org/aquastat/en/data-analysis/irrig-water-use/irrigated-crop-calendars/index.html",
+      "locator": "Irrigated crop calendars > Bangladesh example; Irrigation water requirement > wheat example",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0028",
+    "crop": "All non-rice crops",
+    "category": "Irrigation scheduling",
+    "parameter": "Methods described — item",
+    "value": "Estimation method",
+    "value_type": "list_item",
+    "content": "For All non-rice crops, the verified source reports Methods described — item as Estimation method. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0029",
+    "crop": "All crops",
+    "category": "Irrigation methodology",
+    "parameter": "Water-depth unit",
+    "value": "mm per time unit",
+    "value_type": "text",
+    "content": "For All crops, the verified source reports Water-depth unit as mm per time unit. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Water Needs, Chapter 4 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Water Needs, Chapter 4",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4 > Irrigation Water Needs > formula and tomato example",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0030",
+    "crop": "Wheat in Bangladesh",
+    "category": "Crop coefficient",
+    "parameter": "Development",
+    "value": 0.8,
+    "unit": "Kc",
+    "value_type": "text",
+    "context": "January",
+    "content": "For Wheat in Bangladesh, the verified source reports Development as 0.8 Kc. The stated context is January. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is AQUASTAT Irrigated Crop Calendars and Irrigation Water Requirement from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "AQUASTAT Irrigated Crop Calendars and Irrigation Water Requirement",
+      "url": "https://www.fao.org/aquastat/en/data-analysis/irrig-water-use/irrigated-crop-calendars/index.html",
+      "locator": "Irrigated crop calendars > Bangladesh example; Irrigation water requirement > wheat example",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0031",
+    "crop": "All non-rice crops",
+    "category": "Irrigation scheduling",
+    "parameter": "Methods described — item",
+    "value": "Simple calculation method",
+    "value_type": "list_item",
+    "content": "For All non-rice crops, the verified source reports Methods described — item as Simple calculation method. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0032",
+    "crop": "Tomato",
+    "category": "Crop water need",
+    "parameter": "February",
+    "value": 69,
+    "unit": "mm/month",
+    "value_type": "text",
+    "context": "FAO example for a 150-day crop",
+    "content": "For Tomato, the verified source reports February as 69 mm/month. The stated context is FAO example for a 150-day crop. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Water Needs, Chapter 4 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Water Needs, Chapter 4",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4 > Irrigation Water Needs > formula and tomato example",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0033",
+    "crop": "Wheat in Bangladesh",
+    "category": "Crop coefficient",
+    "parameter": "Mid",
+    "value": 1.15,
+    "unit": "Kc",
+    "value_type": "text",
+    "context": "February-March",
+    "content": "For Wheat in Bangladesh, the verified source reports Mid as 1.15 Kc. The stated context is February-March. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is AQUASTAT Irrigated Crop Calendars and Irrigation Water Requirement from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "AQUASTAT Irrigated Crop Calendars and Irrigation Water Requirement",
+      "url": "https://www.fao.org/aquastat/en/data-analysis/irrig-water-use/irrigated-crop-calendars/index.html",
+      "locator": "Irrigated crop calendars > Bangladesh example; Irrigation water requirement > wheat example",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0034",
+    "crop": "All non-rice crops",
+    "category": "Irrigation scheduling",
+    "parameter": "Early-season principle",
+    "value": "Use smaller and more frequent applications because young crops have shallow roots and lower evapotranspiration",
+    "value_type": "text",
+    "content": "For All non-rice crops, the verified source reports Early-season principle as Use smaller and more frequent applications because young crops have shallow roots and lower evapotranspiration. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0035",
+    "crop": "Tomato",
+    "category": "Crop water need",
+    "parameter": "March",
+    "value": 123,
+    "unit": "mm/month",
+    "value_type": "text",
+    "context": "FAO example for a 150-day crop",
+    "content": "For Tomato, the verified source reports March as 123 mm/month. The stated context is FAO example for a 150-day crop. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Water Needs, Chapter 4 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Water Needs, Chapter 4",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4 > Irrigation Water Needs > formula and tomato example",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0036",
+    "crop": "Wheat in Bangladesh",
+    "category": "Crop coefficient",
+    "parameter": "Late",
+    "value": 0.3,
+    "unit": "Kc",
+    "value_type": "text",
+    "context": "April",
+    "content": "For Wheat in Bangladesh, the verified source reports Late as 0.3 Kc. The stated context is April. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is AQUASTAT Irrigated Crop Calendars and Irrigation Water Requirement from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "AQUASTAT Irrigated Crop Calendars and Irrigation Water Requirement",
+      "url": "https://www.fao.org/aquastat/en/data-analysis/irrig-water-use/irrigated-crop-calendars/index.html",
+      "locator": "Irrigated crop calendars > Bangladesh example; Irrigation water requirement > wheat example",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0037",
+    "crop": "All non-rice crops",
+    "category": "Irrigation scheduling",
+    "parameter": "Mid-season principle",
+    "value": "Use larger and less frequent applications because evapotranspiration and root depth are higher",
+    "value_type": "text",
+    "content": "For All non-rice crops, the verified source reports Mid-season principle as Use larger and less frequent applications because evapotranspiration and root depth are higher. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0038",
+    "crop": "Tomato",
+    "category": "Crop water need",
+    "parameter": "April",
+    "value": 180,
+    "unit": "mm/month",
+    "value_type": "text",
+    "context": "FAO example for a 150-day crop",
+    "content": "For Tomato, the verified source reports April as 180 mm/month. The stated context is FAO example for a 150-day crop. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Water Needs, Chapter 4 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Water Needs, Chapter 4",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4 > Irrigation Water Needs > formula and tomato example",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0039",
+    "crop": "All non-rice crops",
+    "category": "Soil water",
+    "parameter": "Available-water classification — full list",
+    "value": "Sand: low; Loam: medium; Clay: high",
+    "value_type": "list",
+    "content": "For All non-rice crops, the verified source reports Available-water classification — full list as Sand: low; Loam: medium; Clay: high. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0040",
+    "crop": "Tomato",
+    "category": "Crop water need",
+    "parameter": "May",
+    "value": 234,
+    "unit": "mm/month",
+    "value_type": "text",
+    "context": "FAO example for a 150-day crop",
+    "content": "For Tomato, the verified source reports May as 234 mm/month. The stated context is FAO example for a 150-day crop. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Water Needs, Chapter 4 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Water Needs, Chapter 4",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4 > Irrigation Water Needs > formula and tomato example",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0041",
+    "crop": "All non-rice crops",
+    "category": "Soil water",
+    "parameter": "Available-water classification — item",
+    "value": "Sand: low",
+    "value_type": "list_item",
+    "content": "For All non-rice crops, the verified source reports Available-water classification — item as Sand: low. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0042",
+    "crop": "Tomato",
+    "category": "Crop water need",
+    "parameter": "June",
+    "value": 180,
+    "unit": "mm/month",
+    "value_type": "text",
+    "context": "FAO example for a 150-day crop",
+    "content": "For Tomato, the verified source reports June as 180 mm/month. The stated context is FAO example for a 150-day crop. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Water Needs, Chapter 4 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Water Needs, Chapter 4",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4 > Irrigation Water Needs > formula and tomato example",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0043",
+    "crop": "All non-rice crops",
+    "category": "Soil water",
+    "parameter": "Available-water classification — item",
+    "value": "Loam: medium",
+    "value_type": "list_item",
+    "content": "For All non-rice crops, the verified source reports Available-water classification — item as Loam: medium. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0044",
+    "crop": "Tomato",
+    "category": "Crop water need",
+    "parameter": "Season total",
+    "value": 786,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "FAO example for a 150-day crop",
+    "content": "For Tomato, the verified source reports Season total as 786 mm. The stated context is FAO example for a 150-day crop. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Water Needs, Chapter 4 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Water Needs, Chapter 4",
+      "url": "https://www.fao.org/4/s2022e/s2022e04.htm",
+      "locator": "Chapter 4 > Irrigation Water Needs > formula and tomato example",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0045",
+    "crop": "All non-rice crops",
+    "category": "Soil water",
+    "parameter": "Available-water classification — item",
+    "value": "Clay: high",
+    "value_type": "list_item",
+    "content": "For All non-rice crops, the verified source reports Available-water classification — item as Clay: high. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0046",
+    "crop": "Shallow-rooting crop",
+    "category": "Irrigation depth",
+    "parameter": "Approximate net irrigation depth",
+    "value": 15,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "Shallow and/or sandy soil",
+    "content": "For Shallow-rooting crop, the verified source reports Approximate net irrigation depth as 15 mm. The stated context is Shallow and/or sandy soil. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0047",
+    "crop": "Medium-rooting crop",
+    "category": "Irrigation depth",
+    "parameter": "Approximate net irrigation depth",
+    "value": 30,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "Shallow and/or sandy soil",
+    "content": "For Medium-rooting crop, the verified source reports Approximate net irrigation depth as 30 mm. The stated context is Shallow and/or sandy soil. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0048",
+    "crop": "Deep-rooting crop",
+    "category": "Irrigation depth",
+    "parameter": "Approximate net irrigation depth",
+    "value": 40,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "Shallow and/or sandy soil",
+    "content": "For Deep-rooting crop, the verified source reports Approximate net irrigation depth as 40 mm. The stated context is Shallow and/or sandy soil. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0049",
+    "crop": "Garlic and Groundnut",
+    "category": "Irrigation",
+    "parameter": "Number of irrigations — reported range",
+    "value": "7-8",
+    "unit": "applications",
+    "value_type": "range",
+    "content": "For Garlic and Groundnut, the verified source reports Number of irrigations — reported range as 7-8 applications. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি",
+      "url": "https://baritechnology.org/m/crops/tech_detail/350",
+      "locator": "প্রযুক্তির বিবরণ > fertilizer table > management > harvest, yield and finance",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0050",
+    "crop": "Shallow-rooting crop",
+    "category": "Irrigation depth",
+    "parameter": "Approximate net irrigation depth",
+    "value": 20,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "Loamy soil",
+    "content": "For Shallow-rooting crop, the verified source reports Approximate net irrigation depth as 20 mm. The stated context is Loamy soil. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0051",
+    "crop": "Garlic and Groundnut",
+    "category": "Irrigation",
+    "parameter": "Number of irrigations — minimum",
+    "value": 7,
+    "unit": "applications",
+    "value_type": "number",
+    "content": "For Garlic and Groundnut, the verified source reports Number of irrigations — minimum as 7 applications. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি",
+      "url": "https://baritechnology.org/m/crops/tech_detail/350",
+      "locator": "প্রযুক্তির বিবরণ > fertilizer table > management > harvest, yield and finance",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0052",
+    "crop": "Medium-rooting crop",
+    "category": "Irrigation depth",
+    "parameter": "Approximate net irrigation depth",
+    "value": 40,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "Loamy soil",
+    "content": "For Medium-rooting crop, the verified source reports Approximate net irrigation depth as 40 mm. The stated context is Loamy soil. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0053",
+    "crop": "Garlic and Groundnut",
+    "category": "Irrigation",
+    "parameter": "Number of irrigations — maximum",
+    "value": 8,
+    "unit": "applications",
+    "value_type": "number",
+    "content": "For Garlic and Groundnut, the verified source reports Number of irrigations — maximum as 8 applications. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "বগুড়ার চরাঞ্চলে রসুনের সাথে চীনাবাদামের আন্তঃফসল চাষ একটি লাভজনক প্রযুক্তি",
+      "url": "https://baritechnology.org/m/crops/tech_detail/350",
+      "locator": "প্রযুক্তির বিবরণ > fertilizer table > management > harvest, yield and finance",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0054",
+    "crop": "Deep-rooting crop",
+    "category": "Irrigation depth",
+    "parameter": "Approximate net irrigation depth",
+    "value": 60,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "Loamy soil",
+    "content": "For Deep-rooting crop, the verified source reports Approximate net irrigation depth as 60 mm. The stated context is Loamy soil. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0055",
+    "crop": "Shallow-rooting crop",
+    "category": "Irrigation depth",
+    "parameter": "Approximate net irrigation depth",
+    "value": 30,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "Clayey soil",
+    "content": "For Shallow-rooting crop, the verified source reports Approximate net irrigation depth as 30 mm. The stated context is Clayey soil. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0056",
+    "crop": "Medium-rooting crop",
+    "category": "Irrigation depth",
+    "parameter": "Approximate net irrigation depth",
+    "value": 50,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "Clayey soil",
+    "content": "For Medium-rooting crop, the verified source reports Approximate net irrigation depth as 50 mm. The stated context is Clayey soil. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0057",
+    "crop": "Deep-rooting crop",
+    "category": "Irrigation depth",
+    "parameter": "Approximate net irrigation depth",
+    "value": 70,
+    "unit": "mm",
+    "value_type": "text",
+    "context": "Clayey soil",
+    "content": "For Deep-rooting crop, the verified source reports Approximate net irrigation depth as 70 mm. The stated context is Clayey soil. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is Irrigation Water Management: Irrigation Scheduling, Chapter 3 from Food and Agriculture Organization of the United Nations (FAO).",
+    "main_source": {
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Irrigation Water Management: Irrigation Scheduling, Chapter 3",
+      "url": "https://www.fao.org/4/t7202e/t7202e06.htm",
+      "locator": "Chapter 3 > Sections 3.1-3.3 > Tables 3, 4 and 5",
+      "medium": "Official scanned technical manual presented as an HTML chapter"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0058",
+    "crop": "Cabbage",
+    "category": "Irrigation",
+    "parameter": "Irrigation interval",
+    "value": 10,
+    "unit": "days",
+    "value_type": "text",
+    "content": "For Cabbage, the verified source reports Irrigation interval as 10 days. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is কেঁচো সার ও রাসায়নিক সারের সমন্বিত প্রয়োগে বাঁধাকপি উৎপাদন from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "কেঁচো সার ও রাসায়নিক সারের সমন্বিত প্রয়োগে বাঁধাকপি উৎপাদন",
+      "url": "https://baritechnology.org/m/crops/tech_detail/297",
+      "locator": "প্রযুক্তির বিবরণ > fertilizer description > application method > crop care",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0059",
+    "crop": "Mango",
+    "category": "Irrigation",
+    "parameter": "Irrigation interval from full bloom",
+    "value": 15,
+    "unit": "days",
+    "value_type": "text",
+    "content": "For Mango, the verified source reports Irrigation interval from full bloom as 15 days. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is আমের ফুল ও ফল ঝরা রোধে টেকসই ব্যবস্থাপনা from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "আমের ফুল ও ফল ঝরা রোধে টেকসই ব্যবস্থাপনা",
+      "url": "https://baritechnology.org/m/crops/tech_detail/322",
+      "locator": "প্রযুক্তির বিবরণ > seasonal management > age-based fertilizer table > application method",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0060",
+    "crop": "Wheat",
+    "category": "Irrigation",
+    "parameter": "First irrigation",
+    "value": 20,
+    "unit": "days after sowing",
+    "value_type": "text",
+    "content": "For Wheat, the verified source reports First irrigation as 20 days after sowing. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is গম-রোপা আমন ধান ফসল ধারার সার ও সেচ ব্যবস্থাপনা from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "গম-রোপা আমন ধান ফসল ধারার সার ও সেচ ব্যবস্থাপনা",
+      "url": "https://baritechnology.org/m/crops/tech_detail/357",
+      "locator": "প্রযুক্তির বিবরণ > fertilizer table > fertilizer timing and irrigation",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0061",
+    "crop": "Wheat",
+    "category": "Irrigation",
+    "parameter": "Irrigation after top dressing",
+    "value": "Light irrigation",
+    "value_type": "text",
+    "content": "For Wheat, the verified source reports Irrigation after top dressing as Light irrigation. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is ফসল বিন্যাসের ফলন বৃদ্ধি ও মৃত্তিকার ভৌতগুণাবলী উন্নয়নের জন্য সংরক্ষিত কর্ষণ ও শস্যের অবশেষ ব্যবহার from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "ফসল বিন্যাসের ফলন বৃদ্ধি ও মৃত্তিকার ভৌতগুণাবলী উন্নয়নের জন্য সংরক্ষিত কর্ষণ ও শস্যের অবশেষ ব্যবহার",
+      "url": "https://m.baritechnology.org/crops/tech_detail/293",
+      "locator": "প্রযুক্তির বিবরণ > conservation tillage depth and crop-residue system > fertilizer application",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0062",
+    "crop": "Mango",
+    "category": "Irrigation",
+    "parameter": "Number of irrigations from full bloom",
+    "value": 4,
+    "unit": "applications",
+    "value_type": "text",
+    "content": "For Mango, the verified source reports Number of irrigations from full bloom as 4 applications. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is আমের ফুল ও ফল ঝরা রোধে টেকসই ব্যবস্থাপনা from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "আমের ফুল ও ফল ঝরা রোধে টেকসই ব্যবস্থাপনা",
+      "url": "https://baritechnology.org/m/crops/tech_detail/322",
+      "locator": "প্রযুক্তির বিবরণ > seasonal management > age-based fertilizer table > application method",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0063",
+    "crop": "Wheat",
+    "category": "Irrigation",
+    "parameter": "Second irrigation",
+    "value": "At ear emergence",
+    "value_type": "text",
+    "content": "For Wheat, the verified source reports Second irrigation as At ear emergence. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is গম-রোপা আমন ধান ফসল ধারার সার ও সেচ ব্যবস্থাপনা from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "গম-রোপা আমন ধান ফসল ধারার সার ও সেচ ব্যবস্থাপনা",
+      "url": "https://baritechnology.org/m/crops/tech_detail/357",
+      "locator": "প্রযুক্তির বিবরণ > fertilizer table > fertilizer timing and irrigation",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0064",
+    "crop": "Bt Brinjal",
+    "category": "Irrigation",
+    "parameter": "Number of irrigations — reported range",
+    "value": "4-6",
+    "unit": "applications",
+    "value_type": "range",
+    "content": "For Bt Brinjal, the verified source reports Number of irrigations — reported range as 4-6 applications. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is বিটি বেগুনের উন্নত উৎপাদন প্রযুক্তি from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "বিটি বেগুনের উন্নত উৎপাদন প্রযুক্তি",
+      "url": "https://baritechnology.org/m/crops/tech_detail/333",
+      "locator": "প্রযুক্তির বিবরণ > varieties/seedlings > soil and planting > irrigation, harvest, yield and finance",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0065",
+    "crop": "Wheat",
+    "category": "Irrigation",
+    "parameter": "Total irrigations",
+    "value": 2,
+    "unit": "applications",
+    "value_type": "text",
+    "content": "For Wheat, the verified source reports Total irrigations as 2 applications. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is গম-রোপা আমন ধান ফসল ধারার সার ও সেচ ব্যবস্থাপনা from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "গম-রোপা আমন ধান ফসল ধারার সার ও সেচ ব্যবস্থাপনা",
+      "url": "https://baritechnology.org/m/crops/tech_detail/357",
+      "locator": "প্রযুক্তির বিবরণ > fertilizer table > fertilizer timing and irrigation",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0066",
+    "crop": "Bt Brinjal",
+    "category": "Irrigation",
+    "parameter": "Number of irrigations — minimum",
+    "value": 4,
+    "unit": "applications",
+    "value_type": "number",
+    "content": "For Bt Brinjal, the verified source reports Number of irrigations — minimum as 4 applications. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is বিটি বেগুনের উন্নত উৎপাদন প্রযুক্তি from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "বিটি বেগুনের উন্নত উৎপাদন প্রযুক্তি",
+      "url": "https://baritechnology.org/m/crops/tech_detail/333",
+      "locator": "প্রযুক্তির বিবরণ > varieties/seedlings > soil and planting > irrigation, harvest, yield and finance",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0067",
+    "crop": "Bt Brinjal",
+    "category": "Irrigation",
+    "parameter": "Number of irrigations — maximum",
+    "value": 6,
+    "unit": "applications",
+    "value_type": "number",
+    "content": "For Bt Brinjal, the verified source reports Number of irrigations — maximum as 6 applications. This record is intended for irrigation scheduling and crop-water calculation. It must be matched by crop, region, variety, season, technology or cropping pattern before use. The main source is বিটি বেগুনের উন্নত উৎপাদন প্রযুক্তি from Bangladesh Agricultural Research Institute (BARI).",
+    "main_source": {
+      "institution": "Bangladesh Agricultural Research Institute (BARI)",
+      "title": "বিটি বেগুনের উন্নত উৎপাদন প্রযুক্তি",
+      "url": "https://baritechnology.org/m/crops/tech_detail/333",
+      "locator": "প্রযুক্তির বিবরণ > varieties/seedlings > soil and planting > irrigation, harvest, yield and finance",
+      "medium": "Official webpage/table"
+    },
+    "verification_status": "verified_against_visible_official_source",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0068",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "latitude",
+    "value": "WGS84 latitude used to locate the farm",
+    "unit": "degrees",
+    "content": "The irrigation scheduler should retrieve latitude, defined as WGS84 latitude used to locate the farm. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0069",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "longitude",
+    "value": "WGS84 longitude used to locate the farm",
+    "unit": "degrees",
+    "content": "The irrigation scheduler should retrieve longitude, defined as WGS84 longitude used to locate the farm. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0070",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "daily.precipitation_sum",
+    "value": "Forecast daily precipitation total",
+    "unit": "mm",
+    "content": "The irrigation scheduler should retrieve daily.precipitation_sum, defined as Forecast daily precipitation total. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0071",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "daily.precipitation_probability_max",
+    "value": "Maximum daily precipitation probability",
+    "unit": "percent",
+    "content": "The irrigation scheduler should retrieve daily.precipitation_probability_max, defined as Maximum daily precipitation probability. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0072",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "daily.temperature_2m_max",
+    "value": "Daily maximum air temperature at 2 m",
+    "unit": "°C",
+    "content": "The irrigation scheduler should retrieve daily.temperature_2m_max, defined as Daily maximum air temperature at 2 m. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0073",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "daily.temperature_2m_min",
+    "value": "Daily minimum air temperature at 2 m",
+    "unit": "°C",
+    "content": "The irrigation scheduler should retrieve daily.temperature_2m_min, defined as Daily minimum air temperature at 2 m. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0074",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "daily.et0_fao_evapotranspiration",
+    "value": "Daily FAO reference evapotranspiration ET0",
+    "unit": "mm",
+    "content": "The irrigation scheduler should retrieve daily.et0_fao_evapotranspiration, defined as Daily FAO reference evapotranspiration ET0. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0075",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "hourly.relative_humidity_2m",
+    "value": "Hourly relative humidity at 2 m",
+    "unit": "percent",
+    "content": "The irrigation scheduler should retrieve hourly.relative_humidity_2m, defined as Hourly relative humidity at 2 m. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0076",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "hourly.soil_moisture_0_to_1cm",
+    "value": "Near-surface volumetric soil moisture",
+    "unit": "m³/m³",
+    "content": "The irrigation scheduler should retrieve hourly.soil_moisture_0_to_1cm, defined as Near-surface volumetric soil moisture. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0077",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "hourly.soil_moisture_1_to_3cm",
+    "value": "Volumetric soil moisture at 1–3 cm",
+    "unit": "m³/m³",
+    "content": "The irrigation scheduler should retrieve hourly.soil_moisture_1_to_3cm, defined as Volumetric soil moisture at 1–3 cm. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0078",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "hourly.soil_moisture_3_to_9cm",
+    "value": "Volumetric soil moisture at 3–9 cm",
+    "unit": "m³/m³",
+    "content": "The irrigation scheduler should retrieve hourly.soil_moisture_3_to_9cm, defined as Volumetric soil moisture at 3–9 cm. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0079",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "hourly.soil_moisture_9_to_27cm",
+    "value": "Volumetric soil moisture at 9–27 cm",
+    "unit": "m³/m³",
+    "content": "The irrigation scheduler should retrieve hourly.soil_moisture_9_to_27cm, defined as Volumetric soil moisture at 9–27 cm. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  },
+  {
+    "id": "irr_0080",
+    "crop": "All farms",
+    "category": "Live weather input",
+    "parameter": "hourly.wind_speed_10m",
+    "value": "Hourly wind speed at 10 m",
+    "unit": "km/h",
+    "content": "The irrigation scheduler should retrieve hourly.wind_speed_10m, defined as Hourly wind speed at 10 m. The returned value must be stored with the request coordinates, forecast timestamp and raw API response.",
+    "main_source": {
+      "institution": "Open-Meteo",
+      "title": "Weather Forecast API Documentation",
+      "url": "https://open-meteo.com/en/docs",
+      "locator": "Forecast API variables",
+      "medium": "Official API documentation"
+    },
+    "verification_status": "verified_against_official_api_documentation",
+    "verified_on": "2026-07-24"
+  }
+]

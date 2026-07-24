@@ -1,0 +1,44 @@
+{
+  "farmer_profile_example": {
+    "farmer_id": "farmer_demo_001",
+    "display_name": "Demo Farmer",
+    "preferred_language": "bn"
+  },
+  "farm_example": {
+    "farm_id": "farm_demo_001",
+    "farmer_id": "farmer_demo_001",
+    "district": "Cumilla",
+    "upazila": "Burichang",
+    "latitude": 23.46,
+    "longitude": 91.18,
+    "farm_size": 2,
+    "farm_size_unit": "acre",
+    "soil_type": "loam",
+    "irrigation_availability": "limited",
+    "budget_bdt": 120000
+  },
+  "season_plan_example": {
+    "season_plan_id": "plan_demo_001",
+    "farm_id": "farm_demo_001",
+    "crop": "Maize",
+    "season": "Rabi",
+    "sowing_date": "2026-11-15",
+    "current_growth_stage": "pre-sowing",
+    "plan_status": "active"
+  },
+  "memory_policy": {
+    "remember_across_sessions": [
+      "farmer profile",
+      "farm characteristics",
+      "selected crop and variety",
+      "active season plan",
+      "completed and upcoming operations",
+      "last forecast check and unresolved alerts"
+    ],
+    "do_not_store_without_need": [
+      "API secrets",
+      "payment credentials",
+      "unnecessary sensitive personal information"
+    ]
+  }
+}

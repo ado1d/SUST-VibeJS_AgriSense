@@ -1,0 +1,52 @@
+{
+  "weather": {
+    "provider": "Open-Meteo",
+    "forecast_endpoint": "https://api.open-meteo.com/v1/forecast",
+    "documentation": "https://open-meteo.com/en/docs",
+    "required_query_inputs": [
+      "latitude",
+      "longitude",
+      "timezone"
+    ],
+    "recommended_daily_variables": [
+      "temperature_2m_max",
+      "temperature_2m_min",
+      "precipitation_sum",
+      "precipitation_probability_max",
+      "et0_fao_evapotranspiration",
+      "wind_speed_10m_max"
+    ],
+    "recommended_hourly_variables": [
+      "relative_humidity_2m",
+      "precipitation",
+      "precipitation_probability",
+      "soil_moisture_0_to_1cm",
+      "soil_moisture_1_to_3cm",
+      "soil_moisture_3_to_9cm",
+      "soil_moisture_9_to_27cm"
+    ],
+    "storage_requirements": [
+      "request URL",
+      "coordinates",
+      "retrieval timestamp",
+      "raw JSON",
+      "timezone"
+    ]
+  },
+  "market_prices": {
+    "provider": "Department of Agricultural Marketing, Bangladesh",
+    "portal": "https://market.dam.gov.bd/",
+    "daily_report": "https://market.dam.gov.bd/market_daily_price_report/?L=B",
+    "commodity_history": "https://market.dam.gov.bd/commodity_wise_report",
+    "required_filters_before_financial_use": [
+      "date",
+      "division",
+      "district",
+      "upazila or market",
+      "commodity",
+      "price type",
+      "unit"
+    ],
+    "rule": "Do not calculate revenue from an unfiltered headline price range."
+  }
+}

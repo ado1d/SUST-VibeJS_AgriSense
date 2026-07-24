@@ -1,11 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
+  reactStrictMode: true,
+  outputFileTracingIncludes: {
+    '/*': [
+      './AgriSense_Tier2_Official_Market_Directory_Sample.zip',
+      './AgriSense_Tier2_Market_Intelligence_Rules.zip',
+    ],
   },
-  reactStrictMode: false,
 };
 
 export default nextConfig;

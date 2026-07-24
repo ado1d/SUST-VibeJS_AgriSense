@@ -8,6 +8,8 @@
 
 ## What this submission covers
 
+The interface includes a persistent **English / বাংলা** selector. The chosen language controls the application labels, deterministic demo output, validation/fallback messages, and every agent response. The language is sent explicitly with each chat request, so mixed-language conversation history cannot silently override the farmer's selection. Bangla responses retain the same Markdown headings, bullet lists, recommendations, calculations, caveats, and source detail as English responses.
+
 **Tier 0 — Core (all 8 capabilities implemented and demoed end-to-end):**
 
 | # | Capability | Status | Where to see it |
@@ -20,6 +22,13 @@
 | 6 | Explained reasoning — every recommendation names the inputs (farmer profile + weather + KB chunks) behind it | ✅ | Answer prose; each rationale cites specific data |
 | 7 | Knowledge base with RAG — 1000 verified facts from BARI/BWMRI/BRRI/FAO + structured crop catalog; agent retrieves from it before advising | ✅ | Trace panel → `rag_search` returns scored chunks with source URLs; `get_kb_facts_by_crop` returns all facts for one crop |
 | 8 | Visible agent trace — UI exposes every tool call, parameters sent, raw return values | ✅ | Right-side "Visible Agent Trace" panel — click any entry to expand |
+
+**Tier 2 — Ambitious:**
+
+| Capability | Status | Where to see it |
+|---|---|---|
+| Marketplace and supplier comparison | ✅ | Ask where to buy planned inputs, or run the demo; see Suppliers + Trace tabs |
+| Current/historical market intelligence and sell/store/wait recommendation | ✅ | Ask about a commodity price or selling decision; see Market + Trace tabs |
 
 ---
 
@@ -51,6 +60,8 @@ Farmer message
        • recommend_crops      — scores 3+ crops using profile + weather + KB
        • get_crop_calendar    — dated calendar with weather-aware advisories
        • compute_financials   — itemized per-acre costs + ROI + break-even
+       • compare_suppliers    — plan-derived quantities ranked against a seeded mock catalog
+       • get_market_price_intelligence — live DAM ticker, official history, deterministic decision math
    ↻ Each tool call persisted to TraceEntry table + surfaced in UI trace panel
    ↻ Tool result fed back as role=tool message
    ↻ LLM either calls more tools or emits final answer
@@ -67,6 +78,7 @@ Frontend renders chat reply + trace panel updates
 ### Real (live external calls)
 - **Weather**: `get_weather` tool calls Open-Meteo's geocoding API (`geocoding-api.open-meteo.com`) and forecast API (`api.open-meteo.com`). Every temperature, rainfall, and wind value shown in the trace and cited in recommendations comes from a real HTTP call. No invented forecasts.
 - **Bangladesh geocoding**: We use Open-Meteo's `country=BD` filter plus a small alias map (Bogura→Bogra, Jashore→Jessore, Chattogram→Chittagong, Cumilla→Comilla, etc.) so the geocoder reliably resolves Bangladesh district names.
+- **Market intelligence**: `get_market_price_intelligence` reads the live DAM headline ticker and the official DAM Graphical Report. Ticker values stay display-only when DAM does not expose their unit/market scope; the agent never silently feeds them into revenue or sell/store math.
 
 ### Curated from public sources (in-app knowledge base)
 The knowledge base has two layers:
@@ -111,7 +123,8 @@ When the agent retrieves a fact, both the trace panel and the final answer's Sou
 - **ROI, break-even price, break-even yield**: derived arithmetically from the above. The formulas are explicit in `financials.ts`.
 
 ### What is NOT real (limitations to disclose)
-- **Market prices** are static ranges from BBS Yearbook, not live DAM (Department of Agricultural Marketing) API. A live DAM feed would be a Tier 1/2 addition.
+- **Supplier commercial data is seeded mock data**: supplier identities, offers, prices, stock, ratings, and delivery times are simulated. Location anchors come from the official DAM market directory, while distance is a district-HQ proxy—not farmer-to-shop route distance. Ranking uses disclosed weights: delivered price 35%, distance 25%, delivery time 20%, rating 15%, stock 5%.
+- **DAM ticker scope is incomplete**: the live homepage ticker does not visibly resolve unit, market, or price type. It is shown as a headline snapshot only. A sell/store recommendation requires a verified same-unit current price, specific market, price type, future-price assumption, costs, and storage feasibility.
 - **Pest/disease predictions** are based on crop + growth stage + rainfall tolerance — not on a real epidemiological model. The advisories are heuristics grounded in extension manual guidance.
 - **bdapps Payment Gateway** (Tier 2, 10 points) is **not implemented** in this Tier 0 build. It would be the next addition after this core is stable.
 
@@ -161,10 +174,13 @@ If the agent gets a 403, it surfaces the error to the chat UI gracefully — you
 
 ## Try these demo flows
 
+**0. Demo Plan button (no LLM needed — use this when OpenAI is region-blocked):**
+Click the **"Demo Plan"** button in the top-right corner. This runs all 6 tools directly (weather, RAG, recommend_crops, calendar, financials) without calling the LLM, and populates all 4 visualization tabs. Perfect for verifying the UI works without an OpenAI key.
+
 **1. Full plan in one shot (best demo flow):**
 > "I have 30 decimal in Jashore, loamy soil, tubewell water, Rabi season, budget 25000 taka. Build me a complete plan."
 
-The agent will: save profile → fetch real weather → RAG search → rank crops → build calendar → compute financials → synthesize grounded answer.
+The agent will: save profile → fetch real weather → RAG search (multiple queries) → rank crops → build calendar → compute financials → synthesize grounded answer. The right panel auto-switches to the **Crops** tab when recommendations are ready, then you can click **Calendar** and **Financials** to see dedicated visualizations.
 
 **2. Two-turn flow (demonstrates memory + adaptability):**
 > Turn 1: "I have 50 decimal in Bogura, clay soil, canal water, Aman season, budget 15000 taka. What should I plant?"
@@ -173,6 +189,42 @@ The agent will: save profile → fetch real weather → RAG search → rank crop
 **3. Incomplete info (demonstrates missing-info handling):**
 > "I want to plant something this season in Mymensingh."
 > The agent should ask for: farm size, soil type, water source, budget, and which season.
+
+## UI layout — 4 visualization tabs on the right
+
+The right panel has 4 tabs that auto-populate as the agent runs its tools:
+
+1. **🌾 Crops tab** — Card per recommended crop showing:
+   - Rank (#1 with trophy badge for top pick)
+   - Crop name + Bengali name
+   - Suitability score (0-100) with progress bar
+   - Water need badge (Low/Medium/High)
+   - Risk level badge (Low/Medium/High)
+   - ROI percentage
+   - Revenue/cost/profit per acre
+   - Rationale (top 3 reasons citing soil, water, weather, KB)
+   - Collapsible KB evidence with fact IDs and source URLs
+
+2. **📅 Calendar tab** — Timeline visualization:
+   - Crop name + sowing → harvest dates + total days
+   - Weather advisories banner (if any)
+   - Vertical timeline with day numbers, dates, stage badges, and actions
+   - Advisory callouts (e.g. "⚠ Heavy rain forecast — delay urea 2-3 days")
+
+3. **💰 Financials tab** — Full financial projection:
+   - Net profit (farm total) with ROI
+   - Summary cards: Total cost / Revenue / ROI
+   - Break-even analysis: price per maund + yield per acre
+   - Itemized cost breakdown table: every line item (NPK, Urea, TSP, MOP, Gypsum, Zinc, Seed, Labour, Irrigation, Land prep, Pest mgmt) with quantity, rate, total
+   - Per-acre and farm-total columns
+   - Scenario notes (e.g. "Sowing outside optimal window — yield may drop 10-25%")
+
+4. **🔧 Trace tab** — Every tool call with expandable details:
+   - Tool name, timestamp, duration, OK/ERROR badge
+   - Parameters sent
+   - For rag_search: retrieved facts with scores, crop, category, source URLs (clickable)
+   - For get_kb_facts_by_crop: verified facts with fact IDs and source URLs
+   - Raw return value (full JSON)
 
 ---
 
@@ -183,6 +235,8 @@ src/
 ├── app/
 │   ├── api/
 │   │   ├── chat/route.ts        — POST endpoint that runs the agent
+│   │   ├── demo-plan/route.ts   — GET endpoint that runs tools without LLM (for UI testing)
+│   │   ├── rag-test/route.ts    — GET endpoint to test RAG retriever directly
 │   │   ├── profile/route.ts     — GET farmer profile + conversation history
 │   │   └── trace/route.ts       — GET all tool-call trace entries
 │   ├── layout.tsx
@@ -219,12 +273,15 @@ The five behaviors judges will look for, and where each is implemented:
 
 ---
 
-## Known limitations & next steps (Tier 1 candidates)
+## Tier 1 status and remaining production limitations
 
-- **Persistent memory across sessions**: Currently keyed by `sessionId` stored in browser localStorage. A real auth system would let the same farmer log in from any device.
-- **Proactive weather-triggered advice**: The `get_crop_calendar` tool already emits advisories like "delay urea top dress by 2–3 days after rain", but these are reactive (generated when the plan is built). A scheduled job that re-checks weather daily and pushes alerts would make this proactive.
-- **Pest/disease risk model**: Currently the calendar lists major pests per crop; a real prediction model based on growth stage × weather × region would be more accurate.
-- **Scenario simulation**: "What if rainfall drops 30%?" — would require running `recommend_crops` and `compute_financials` with modified inputs and showing the diff.
+- **Persistent memory is implemented** for farmer profiles, conversations, active season plans, and scenario runs. Browser localStorage restores the same session after closing/reopening; production authentication would be needed to restore it on another device.
+- **Proactive forecast checks are implemented** when a farmer returns with an active plan. The app fetches fresh Open-Meteo data, evaluates verified thresholds, persists the check/alerts, and exposes both raw calls in the trace. A production deployment could additionally invoke the same endpoint from a daily scheduler and push SMS notifications.
+- **Fertilizer and irrigation scheduling is implemented** with farm-size scaling only for compatible units, context warnings for alternative AEZ/technology records, organic records when available, and inspectable planning costs.
+- **Pest/disease risk is implemented** from growth stage plus real temperature, humidity, and rainfall. Missing inputs remain explicitly insufficient; weather never confirms infestation, and chemical labels must be verified locally.
+- **Scenario simulation is implemented** for budget, rainfall, selling price, input price, and sowing-date changes. The result shows changed financial/calendar values and discloses assumptions where a verified yield or water-balance response is unavailable.
+- **Tier 2 marketplace is implemented** with deterministic package rounding, stock enforcement, total delivered cost, excess quantity, normalized weighted ranking, and plan-derived input quantities. Every mock field is labeled in both tool output and UI.
+- **Tier 2 market intelligence is implemented** with a resilient live DAM ticker reader, official historical monthly series, explicit commodity/subgroup matching, and inspectable sell-now/store-or-wait/monitor formulas. Forecasts are assumptions, never guarantees, and incompatible units or price types are not mixed.
 - **bdapps Payment Gateway (Tier 2, 10 points)**: Sandbox CaaS API integration for input purchases. Documentation: https://dev.bdapps.com/API_Documentation/bdapps_tap_api.html
 - **Bengali language / voice interaction**: Currently English-only. Would require Bengali system prompt + TTS/ASR (e.g. via OpenAI Audio API or a Bengali-specific service).
 

@@ -22,8 +22,10 @@ export interface CropCalendarResult {
 }
 
 function addDays(isoDate: string, days: number): string {
-  const d = new Date(isoDate);
-  d.setDate(d.getDate() + days);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(isoDate)) throw new Error('sowingDate must use YYYY-MM-DD format');
+  const d = new Date(`${isoDate}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) throw new Error('sowingDate must be a valid date');
+  d.setUTCDate(d.getUTCDate() + days);
   return d.toISOString().slice(0, 10);
 }
 
